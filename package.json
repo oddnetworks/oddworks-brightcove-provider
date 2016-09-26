@@ -1,0 +1,43 @@
+{
+  "name": "oddworks-brightcove-provider",
+  "version": "1.0.0",
+  "description": "An Oddworks provider plugin for Brightcove APIs",
+  "main": "index.js",
+  "dependencies": {
+    "bluebird": "^3.4.6",
+    "boom": "^4.0.0",
+    "debug": "^2.2.0",
+    "request": "^2.75.0",
+    "yargs": "^5.0.0"
+  },
+  "devDependencies": {
+    "ava": "^0.16.0",
+    "nock": "^8.0.0",
+    "oddcast": "^2.1.0",
+    "sinon": "^1.17.6",
+    "xo": "^0.16.0"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oddnetworks/oddworks-brightcove-provider.git"
+  },
+  "keywords": [
+    "Oddworks",
+    "Brightcove",
+    "API",
+    "Video",
+    "Media",
+    "Source",
+    "Provider",
+    "Spec"
+  ],
+  "author": "Odd Networks Inc.",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/oddnetworks/oddworks-brightcove-provider/issues"
+  },
+  "homepage": "https://github.com/oddnetworks/oddworks-brightcove-provider#readme"
+}
