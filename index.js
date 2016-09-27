@@ -26,6 +26,7 @@ exports.initialize = options => {
 	const clientId = options.clientId;
 	const clientSecret = options.clientSecret;
 	const accountId = options.accountId;
+	const policyKey = options.policyKey;
 	const role = 'provider';
 	const cmd = 'get';
 
@@ -36,7 +37,7 @@ exports.initialize = options => {
 	const collectionTransform = options.collectionTransform;
 	const videoTransform = options.videoTransform;
 
-	const client = new Client({bus, clientId, clientSecret, accountId});
+	const client = new Client({bus, clientId, clientSecret, accountId, policyKey});
 
 	const getChannel = createChannelCache(bus);
 
@@ -117,6 +118,7 @@ exports.createClient = options => {
 	const clientId = options.clientId;
 	const clientSecret = options.clientSecret;
 	const accountId = options.accountId;
+	const policyKey = options.policyKey;
 
 	if (!clientId || typeof clientId !== 'string') {
 		throw new Error(
@@ -136,5 +138,11 @@ exports.createClient = options => {
 		);
 	}
 
-	return new Client({bus, clientId, clientSecret, accountId});
+	if (!policyKey || typeof policyKey !== 'string') {
+		throw new Error(
+			'oddworks-brightcove-provider requires a Brightcove policyKey'
+		);
+	}
+
+	return new Client({bus, clientId, clientSecret, accountId, policyKey});
 };
