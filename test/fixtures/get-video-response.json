@@ -1,0 +1,184 @@
+{
+  "id": "5133172277001",
+  "account_id": "4988507123001",
+  "ad_keys": null,
+  "created_at": "2016-09-20T11:16:47.533Z",
+  "cue_points": [],
+  "custom_fields": {
+    "creationdate": "2016-03-17T22:54:16Z",
+    "host1": "Mark Levin",
+    "metatitle": " ",
+    "parentepisodeid": " ",
+    "publishdate": " ",
+    "segmentorder": " "
+  },
+  "description": "The Broken immigration system, GOP Senators to meet Garland, Lindsey Graham endorses Cruz, Trump won't debate, and my anger with the GOP establishment",
+  "duration": 2363373,
+  "economics": "AD_SUPPORTED",
+  "link": null,
+  "long_description": "The Broken immigration system, GOP Senators to meet Garland, Lindsey Graham endorses Cruz, Trump won't debate, and my anger with the GOP establishment",
+  "name": "LevinTV Episode 9",
+  "poster": "http://brightcove.vo.llnwd.net/v1/unsecured/media/4988507123001/201609/990/4988507123001_5133183591001_5133172277001-vs.jpg?pubId=4988507123001&videoId=5133172277001",
+  "poster_sources": [
+    {
+      "src": "http://brightcove.vo.llnwd.net/v1/unsecured/media/4988507123001/201609/990/4988507123001_5133183591001_5133172277001-vs.jpg?pubId=4988507123001&videoId=5133172277001"
+    },
+    {
+      "src": "https://brightcove.hs.llnwd.net/v2/unsecured/media/4988507123001/201609/990/4988507123001_5133183591001_5133172277001-vs.jpg?pubId=4988507123001&videoId=5133172277001"
+    }
+  ],
+  "published_at": "2016-09-20T11:16:47.533Z",
+  "reference_id": "40b2U0MjE6sLPVFMhNdTnnmVNDkWhTis",
+  "sources": [
+    {
+      "app_name": "rtmp://brightcove.fcod.llnwd.net/a500/v1/uds/rtmp",
+      "asset_id": "5133199070001",
+      "avg_bitrate": 512000,
+      "codec": "H264",
+      "container": "MP4",
+      "duration": 2363373,
+      "height": 270,
+      "size": 152572117,
+      "stream_name": "mp4:4988507123001/201609/990/4988507123001_5133199070001_5133172277001.mp4&1475010000000&02d23362ffd76a4eb513435791acf00f",
+      "width": 480
+    },
+    {
+      "asset_id": "5133199070001",
+      "avg_bitrate": 512000,
+      "codec": "H264",
+      "container": "MP4",
+      "duration": 2363373,
+      "height": 270,
+      "size": 152572117,
+      "src": "http://brightcove.vo.llnwd.net/v1/uds/pd/4988507123001/201609/990/4988507123001_5133199070001_5133172277001.mp4?pubId=4988507123001&videoId=5133172277001",
+      "width": 480
+    },
+    {
+      "asset_id": "5133199070001",
+      "avg_bitrate": 512000,
+      "codec": "H264",
+      "container": "MP4",
+      "duration": 2363373,
+      "height": 270,
+      "size": 152572117,
+      "src": "https://brightcove.hs.llnwd.net/v1/uds/pd/4988507123001/201609/990/4988507123001_5133199070001_5133172277001.mp4?pubId=4988507123001&videoId=5133172277001",
+      "width": 480
+    },
+    {
+      "app_name": "rtmp://brightcove.fcod.llnwd.net/a500/v1/uds/rtmp",
+      "asset_id": "5133201272001",
+      "avg_bitrate": 1824000,
+      "codec": "H264",
+      "container": "MP4",
+      "duration": 2363373,
+      "height": 540,
+      "size": 540610791,
+      "stream_name": "mp4:4988507123001/201609/990/4988507123001_5133201272001_5133172277001.mp4&1475010000000&02d23362ffd76a4eb513435791acf00f",
+      "width": 960
+    },
+    {
+      "asset_id": "5133201272001",
+      "avg_bitrate": 1824000,
+      "codec": "H264",
+      "container": "MP4",
+      "duration": 2363373,
+      "height": 540,
+      "size": 540610791,
+      "src": "http://brightcove.vo.llnwd.net/v1/uds/pd/4988507123001/201609/990/4988507123001_5133201272001_5133172277001.mp4?pubId=4988507123001&videoId=5133172277001",
+      "width": 960
+    },
+    {
+      "asset_id": "5133201272001",
+      "avg_bitrate": 1824000,
+      "codec": "H264",
+      "container": "MP4",
+      "duration": 2363373,
+      "height": 540,
+      "size": 540610791,
+      "src": "https://brightcove.hs.llnwd.net/v1/uds/pd/4988507123001/201609/990/4988507123001_5133201272001_5133172277001.mp4?pubId=4988507123001&videoId=5133172277001",
+      "width": 960
+    },
+    {
+      "app_name": "rtmp://brightcove.fcod.llnwd.net/a500/v1/uds/rtmp",
+      "asset_id": "5133203098001",
+      "avg_bitrate": 994000,
+      "codec": "H264",
+      "container": "MP4",
+      "duration": 2363373,
+      "height": 360,
+      "size": 294978080,
+      "stream_name": "mp4:4988507123001/201609/990/4988507123001_5133203098001_5133172277001.mp4&1475010000000&02d23362ffd76a4eb513435791acf00f",
+      "width": 640
+    },
+    {
+      "asset_id": "5133203098001",
+      "avg_bitrate": 994000,
+      "codec": "H264",
+      "container": "MP4",
+      "duration": 2363373,
+      "height": 360,
+      "size": 294978080,
+      "src": "http://brightcove.vo.llnwd.net/v1/uds/pd/4988507123001/201609/990/4988507123001_5133203098001_5133172277001.mp4?pubId=4988507123001&videoId=5133172277001",
+      "width": 640
+    },
+    {
+      "asset_id": "5133203098001",
+      "avg_bitrate": 994000,
+      "codec": "H264",
+      "container": "MP4",
+      "duration": 2363373,
+      "height": 360,
+      "size": 294978080,
+      "src": "https://brightcove.hs.llnwd.net/v1/uds/pd/4988507123001/201609/990/4988507123001_5133203098001_5133172277001.mp4?pubId=4988507123001&videoId=5133172277001",
+      "width": 640
+    },
+    {
+      "codec": "H264",
+      "container": "M2TS",
+      "src": "http://c.brightcove.com/services/mobile/streaming/index/master.m3u8?videoId=5133172277001&pubId=4988507123001",
+      "type": "application/x-mpegURL"
+    },
+    {
+      "codec": "H264",
+      "container": "M2TS",
+      "src": "https://secure.brightcove.com/services/mobile/streaming/index/master.m3u8?videoId=5133172277001&pubId=4988507123001&secure=true",
+      "type": "application/x-mpegURL"
+    }
+  ],
+  "tags": [
+    "barack obama",
+    "bernie sanders",
+    "conservative review",
+    "constitution",
+    "debate",
+    "donald trump",
+    "election",
+    "episode",
+    "gop",
+    "hillary clinton",
+    "immigration",
+    "jason dalton",
+    "john kasich",
+    "lindsey graham",
+    "march madness",
+    "marco rubio",
+    "michelle malkin",
+    "mike lee",
+    "ncaa",
+    "premium content",
+    "republican establishment",
+    "ted cruz",
+    "uber"
+  ],
+  "text_tracks": [],
+  "thumbnail": "http://brightcove.vo.llnwd.net/v1/unsecured/media/4988507123001/201609/990/4988507123001_5133184764001_5133172277001-th.jpg?pubId=4988507123001&videoId=5133172277001",
+  "thumbnail_sources": [
+    {
+      "src": "http://brightcove.vo.llnwd.net/v1/unsecured/media/4988507123001/201609/990/4988507123001_5133184764001_5133172277001-th.jpg?pubId=4988507123001&videoId=5133172277001"
+    },
+    {
+      "src": "https://brightcove.hs.llnwd.net/v2/unsecured/media/4988507123001/201609/990/4988507123001_5133184764001_5133172277001-th.jpg?pubId=4988507123001&videoId=5133172277001"
+    }
+  ],
+  "updated_at": "2016-09-20T11:38:00.126Z"
+}

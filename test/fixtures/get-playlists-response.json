@@ -1,0 +1,176 @@
+[
+  {
+    "id": "5072647162001",
+    "account_id": "4988507123001",
+    "created_at": "2016-08-05T19:14:57.976Z",
+    "description": null,
+    "favorite": false,
+    "name": "Brightcove Playlist Test List_8_5",
+    "reference_id": null,
+    "type": "EXPLICIT",
+    "updated_at": "2016-09-22T17:38:01.917Z",
+    "video_ids": [
+      "5037038951001",
+      "5121708601001",
+      "4997852316001",
+      "5037038823001"
+    ]
+  },
+  {
+    "id": "5121284572001",
+    "account_id": "4988507123001",
+    "created_at": "2016-09-14T11:11:26.326Z",
+    "description": null,
+    "favorite": false,
+    "name": "High Roller Playlist",
+    "reference_id": null,
+    "type": "EXPLICIT",
+    "updated_at": "2016-09-21T16:36:46.967Z",
+    "video_ids": []
+  },
+  {
+    "id": "5123546484001",
+    "account_id": "4988507123001",
+    "created_at": "2016-09-13T22:05:19.325Z",
+    "description": null,
+    "favorite": false,
+    "name": "TestPlaylistExplicit_9_13_1",
+    "reference_id": null,
+    "type": "EXPLICIT",
+    "updated_at": "2016-09-19T20:42:24.168Z",
+    "video_ids": [
+      "5121708601001"
+    ]
+  },
+  {
+    "id": "5123799151001",
+    "account_id": "4988507123001",
+    "created_at": "2016-09-14T16:58:27.836Z",
+    "description": "Demo Play List",
+    "favorite": false,
+    "name": "Brightcove Playlist Demo",
+    "reference_id": null,
+    "type": "EXPLICIT",
+    "updated_at": "2016-09-19T20:42:24.167Z",
+    "video_ids": [
+      "5121708601001"
+    ]
+  },
+  {
+    "id": "5123799122001",
+    "account_id": "4988507123001",
+    "created_at": "2016-09-14T11:14:09.731Z",
+    "description": null,
+    "favorite": false,
+    "name": "Smart Playlist",
+    "reference_id": null,
+    "type": "ACTIVATED_NEWEST_TO_OLDEST",
+    "updated_at": "2016-09-14T11:17:00.232Z",
+    "limit": 100,
+    "search": "tags:\"7-eleven\",\"american\",\"climate change\""
+  },
+  {
+    "id": "5122215301001",
+    "account_id": "4988507123001",
+    "created_at": "2016-09-13T22:23:48.188Z",
+    "description": null,
+    "favorite": false,
+    "name": "TestPlaylistSmart_9_13_1",
+    "reference_id": null,
+    "type": "ACTIVATED_NEWEST_TO_OLDEST",
+    "updated_at": "2016-09-13T22:25:27.384Z",
+    "limit": 100,
+    "search": "+tags:\"climate change\""
+  },
+  {
+    "id": "5122910993001",
+    "account_id": "4988507123001",
+    "created_at": "2016-09-13T13:51:22.605Z",
+    "description": null,
+    "favorite": false,
+    "name": "Test Playlist",
+    "reference_id": null,
+    "type": "ACTIVATED_NEWEST_TO_OLDEST",
+    "updated_at": "2016-09-13T14:21:15.541Z",
+    "limit": 100,
+    "search": null
+  },
+  {
+    "id": "5121284535001",
+    "account_id": "4988507123001",
+    "created_at": "2016-09-13T14:16:59.311Z",
+    "description": null,
+    "favorite": false,
+    "name": "JLocalPlaylist",
+    "reference_id": null,
+    "type": "ACTIVATED_NEWEST_TO_OLDEST",
+    "updated_at": "2016-09-13T14:18:52.515Z",
+    "limit": 100,
+    "search": null
+  },
+  {
+    "id": "4986616435001",
+    "account_id": "4988507123001",
+    "created_at": "2016-06-27T19:30:47.309Z",
+    "description": null,
+    "favorite": true,
+    "name": "Sample Playlist",
+    "reference_id": null,
+    "type": "ACTIVATED_NEWEST_TO_OLDEST",
+    "updated_at": "2016-09-13T14:13:42.724Z",
+    "limit": 30,
+    "search": "+tags:\"sample\""
+  },
+  {
+    "id": "5072146869001",
+    "account_id": "4988507123001",
+    "created_at": "2016-08-05T15:23:42.606Z",
+    "description": null,
+    "favorite": false,
+    "name": "Brightcove Testing Playlist1",
+    "reference_id": null,
+    "type": "ACTIVATED_NEWEST_TO_OLDEST",
+    "updated_at": "2016-08-05T15:23:42.606Z",
+    "limit": 100,
+    "search": null
+  },
+  {
+    "id": "5068041947001",
+    "account_id": "4988507123001",
+    "created_at": "2016-08-02T14:09:55.315Z",
+    "description": null,
+    "favorite": false,
+    "name": "Brightcove Test",
+    "reference_id": null,
+    "type": "ACTIVATED_NEWEST_TO_OLDEST",
+    "updated_at": "2016-08-02T14:09:55.315Z",
+    "limit": 100,
+    "search": null
+  },
+  {
+    "id": "5052520224001",
+    "account_id": "4988507123001",
+    "created_at": "2016-07-28T01:45:05.301Z",
+    "description": "This is Testing Play list",
+    "favorite": false,
+    "name": "Test Playlist SC",
+    "reference_id": null,
+    "type": "ACTIVATED_NEWEST_TO_OLDEST",
+    "updated_at": "2016-07-28T01:45:05.301Z",
+    "limit": 100,
+    "search": null
+  },
+  {
+    "id": "5034590072001",
+    "account_id": "4988507123001",
+    "created_at": "2016-07-14T21:11:41.303Z",
+    "description": null,
+    "favorite": false,
+    "name": "Test Playlist",
+    "reference_id": null,
+    "type": "ACTIVATED_NEWEST_TO_OLDEST",
+    "updated_at": "2016-07-14T21:11:41.303Z",
+    "limit": 100,
+    "search": null
+  }
+]

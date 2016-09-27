@@ -1,0 +1,299 @@
+[
+  {
+    "id": "5037038951001",
+    "account_id": "4988507123001",
+    "ad_keys": null,
+    "complete": true,
+    "created_at": "2016-07-15T13:55:51.101Z",
+    "cue_points": [],
+    "custom_fields": {},
+    "delivery_type": "static_origin",
+    "description": null,
+    "digital_master_id": "5037062135001",
+    "duration": 31593,
+    "economics": "AD_SUPPORTED",
+    "folder_id": null,
+    "geo": null,
+    "has_digital_master": true,
+    "images": {
+      "thumbnail": {
+        "asset_id": "5037062512001",
+        "remote": false,
+        "src": "http://brightcove.vo.llnwd.net/e1/pd/4988507123001/4988507123001_5037062512001_5037038951001-th.jpg?pubId=4988507123001&videoId=5037038951001",
+        "sources": [
+          {
+            "src": "http://brightcove.vo.llnwd.net/e1/pd/4988507123001/4988507123001_5037062512001_5037038951001-th.jpg?pubId=4988507123001&videoId=5037038951001",
+            "height": 90,
+            "width": 160
+          },
+          {
+            "src": "https://brightcove.hs.llnwd.net/e1/pd/4988507123001/4988507123001_5037062512001_5037038951001-th.jpg?pubId=4988507123001&videoId=5037038951001",
+            "height": 90,
+            "width": 160
+          }
+        ]
+      },
+      "poster": {
+        "asset_id": "5037061484001",
+        "remote": false,
+        "src": "http://brightcove.vo.llnwd.net/e1/pd/4988507123001/4988507123001_5037061484001_5037038951001-vs.jpg?pubId=4988507123001&videoId=5037038951001",
+        "sources": [
+          {
+            "src": "http://brightcove.vo.llnwd.net/e1/pd/4988507123001/4988507123001_5037061484001_5037038951001-vs.jpg?pubId=4988507123001&videoId=5037038951001",
+            "height": 360,
+            "width": 640
+          },
+          {
+            "src": "https://brightcove.hs.llnwd.net/e1/pd/4988507123001/4988507123001_5037061484001_5037038951001-vs.jpg?pubId=4988507123001&videoId=5037038951001",
+            "height": 360,
+            "width": 640
+          }
+        ]
+      }
+    },
+    "link": null,
+    "long_description": null,
+    "name": "Nicholas Cardona - 160715.CRTV.trumppostponesVP-Brightcove.mov",
+    "original_filename": "Nicholas Cardona - 160715.CRTV.trumppostponesVP-Brightcove.mov",
+    "published_at": "2016-07-15T13:55:51.101Z",
+    "reference_id": null,
+    "schedule": null,
+    "sharing": null,
+    "state": "ACTIVE",
+    "tags": [
+      "sample"
+    ],
+    "text_tracks": [],
+    "updated_at": "2016-09-12T11:29:24.706Z"
+  },
+  {
+    "id": "5121708601001",
+    "account_id": "4988507123001",
+    "ad_keys": null,
+    "complete": true,
+    "created_at": "2016-09-12T17:41:15.003Z",
+    "cue_points": [],
+    "custom_fields": {},
+    "delivery_type": "static_origin",
+    "description": "Wonder why, in a year with two historically unpopular major candidates for the White House",
+    "digital_master_id": "5121709913001",
+    "duration": 118313,
+    "economics": "AD_SUPPORTED",
+    "folder_id": null,
+    "geo": null,
+    "has_digital_master": true,
+    "images": {
+      "thumbnail": {
+        "asset_id": "5121711322001",
+        "remote": false,
+        "src": "http://brightcove.vo.llnwd.net/e1/pd/4988507123001/4988507123001_5121711322001_5121708601001-th.jpg?pubId=4988507123001&videoId=5121708601001",
+        "sources": [
+          {
+            "src": "http://brightcove.vo.llnwd.net/e1/pd/4988507123001/4988507123001_5121711322001_5121708601001-th.jpg?pubId=4988507123001&videoId=5121708601001",
+            "height": 90,
+            "width": 160
+          },
+          {
+            "src": "https://brightcove.hs.llnwd.net/e1/pd/4988507123001/4988507123001_5121711322001_5121708601001-th.jpg?pubId=4988507123001&videoId=5121708601001",
+            "height": 90,
+            "width": 160
+          }
+        ]
+      },
+      "poster": {
+        "asset_id": "5121709948001",
+        "remote": false,
+        "src": "http://brightcove.vo.llnwd.net/e1/pd/4988507123001/4988507123001_5121709948001_5121708601001-vs.jpg?pubId=4988507123001&videoId=5121708601001",
+        "sources": [
+          {
+            "src": "http://brightcove.vo.llnwd.net/e1/pd/4988507123001/4988507123001_5121709948001_5121708601001-vs.jpg?pubId=4988507123001&videoId=5121708601001",
+            "height": 360,
+            "width": 640
+          },
+          {
+            "src": "https://brightcove.hs.llnwd.net/e1/pd/4988507123001/4988507123001_5121709948001_5121708601001-vs.jpg?pubId=4988507123001&videoId=5121708601001",
+            "height": 360,
+            "width": 640
+          }
+        ]
+      }
+    },
+    "link": null,
+    "long_description": "Wonder why, in a year with two historically unpopular major candidates for the White House, there's almost no chance you'll see a third-party candidate with them on a debate stage",
+    "name": "9_11 Tribute Deneen Borelli.mov",
+    "original_filename": "9_11 Tribute Deneen Borelli.mov",
+    "published_at": "2016-09-12T17:41:15.003Z",
+    "reference_id": null,
+    "schedule": null,
+    "sharing": null,
+    "state": "ACTIVE",
+    "tags": [],
+    "text_tracks": [],
+    "updated_at": "2016-09-21T13:13:47.522Z"
+  },
+  {
+    "id": "4997852316001",
+    "account_id": "4988507123001",
+    "ad_keys": null,
+    "complete": true,
+    "created_at": "2016-06-27T19:30:47.025Z",
+    "cue_points": [],
+    "custom_fields": {},
+    "delivery_type": "static_origin",
+    "description": "The short description can be used to give more information about your video and will appear in many standard Brightcove player templates.",
+    "digital_master_id": null,
+    "duration": 8242,
+    "economics": "AD_SUPPORTED",
+    "folder_id": null,
+    "geo": null,
+    "has_digital_master": false,
+    "images": {
+      "thumbnail": {
+        "asset_id": "207566934001",
+        "remote": false,
+        "src": "http://brightcove.vo.llnwd.net/e1/pd/96980657001/96980657001_207566934001_titmouse-thumbnail.jpg?pubId=4988507123001&videoId=4997852316001",
+        "sources": [
+          {
+            "src": "http://brightcove.vo.llnwd.net/e1/pd/96980657001/96980657001_207566934001_titmouse-thumbnail.jpg?pubId=4988507123001&videoId=4997852316001",
+            "height": null,
+            "width": null
+          },
+          {
+            "src": "https://brightcove.hs.llnwd.net/e1/pd/96980657001/96980657001_207566934001_titmouse-thumbnail.jpg?pubId=4988507123001&videoId=4997852316001",
+            "height": null,
+            "width": null
+          }
+        ]
+      },
+      "poster": {
+        "asset_id": "207566970001",
+        "remote": false,
+        "src": "http://brightcove.vo.llnwd.net/e1/pd/96980657001/96980657001_207566970001_titmouse-still.jpg?pubId=4988507123001&videoId=4997852316001",
+        "sources": [
+          {
+            "src": "http://brightcove.vo.llnwd.net/e1/pd/96980657001/96980657001_207566970001_titmouse-still.jpg?pubId=4988507123001&videoId=4997852316001",
+            "height": null,
+            "width": null
+          },
+          {
+            "src": "https://brightcove.hs.llnwd.net/e1/pd/96980657001/96980657001_207566970001_titmouse-still.jpg?pubId=4988507123001&videoId=4997852316001",
+            "height": null,
+            "width": null
+          }
+        ]
+      }
+    },
+    "link": null,
+    "long_description": "The long description can be used to give more information about your video and will appear in many standard Brightcove player templates.",
+    "name": "Sample Video 1",
+    "original_filename": "Bird_Titmouse_iStock_000005422648HD1080.mov",
+    "published_at": "2016-06-27T19:30:47.025Z",
+    "reference_id": null,
+    "schedule": null,
+    "sharing": null,
+    "state": "ACTIVE",
+    "tags": [
+      "bernie sanders",
+      "bob dole",
+      "attorney general",
+      "anne arundel county public schools",
+      "aleksandr poteyev",
+      "charlotte-mecklenburg schools",
+      "sample"
+    ],
+    "text_tracks": [],
+    "updated_at": "2016-09-13T13:58:59.973Z"
+  },
+  {
+    "id": "5037038823001",
+    "account_id": "4988507123001",
+    "ad_keys": null,
+    "complete": true,
+    "created_at": "2016-07-15T13:55:54.992Z",
+    "cue_points": [
+      {
+        "id": "5037566124001",
+        "name": "media afraid",
+        "type": "CODE",
+        "time": 6.223,
+        "metadata": null,
+        "force_stop": false
+      }
+    ],
+    "custom_fields": {
+      "lengthsec": "47",
+      "type": "Op-Ed"
+    },
+    "delivery_type": "static_origin",
+    "description": "Here's a short description that will go with the video and could be up to two sentences because they don't know what short really means.",
+    "digital_master_id": "5037062614001",
+    "duration": 47445,
+    "economics": "AD_SUPPORTED",
+    "folder_id": "5788ec61e4b00677c7c97e0d",
+    "geo": null,
+    "has_digital_master": true,
+    "images": {
+      "thumbnail": {
+        "asset_id": "5037130459001",
+        "remote": false,
+        "src": "http://brightcove.vo.llnwd.net/e1/pd/4988507123001/4988507123001_5037130459001_5037038823001-th.jpg?pubId=4988507123001&videoId=5037038823001",
+        "sources": [
+          {
+            "src": "http://brightcove.vo.llnwd.net/e1/pd/4988507123001/4988507123001_5037130459001_5037038823001-th.jpg?pubId=4988507123001&videoId=5037038823001",
+            "height": 90,
+            "width": 160
+          },
+          {
+            "src": "https://brightcove.hs.llnwd.net/e1/pd/4988507123001/4988507123001_5037130459001_5037038823001-th.jpg?pubId=4988507123001&videoId=5037038823001",
+            "height": 90,
+            "width": 160
+          }
+        ]
+      },
+      "poster": {
+        "asset_id": "5037130460001",
+        "remote": false,
+        "src": "http://brightcove.vo.llnwd.net/e1/pd/4988507123001/4988507123001_5037130460001_5037038823001-vs.jpg?pubId=4988507123001&videoId=5037038823001",
+        "sources": [
+          {
+            "src": "http://brightcove.vo.llnwd.net/e1/pd/4988507123001/4988507123001_5037130460001_5037038823001-vs.jpg?pubId=4988507123001&videoId=5037038823001",
+            "height": 360,
+            "width": 640
+          },
+          {
+            "src": "https://brightcove.hs.llnwd.net/e1/pd/4988507123001/4988507123001_5037130460001_5037038823001-vs.jpg?pubId=4988507123001&videoId=5037038823001",
+            "height": 360,
+            "width": 640
+          }
+        ]
+      }
+    },
+    "link": null,
+    "long_description": "Here's a short description that will go with the video and could be up to two sentences because they don't know what short really means.Here's a short description that will go with the video and could be up to two sentences because they don't know what short really means.Here's a short description that will go with the video and could be up to two sentences because they don't know what short really means.",
+    "name": "Episode1 | How we are doing",
+    "original_filename": "chris bravo - 160715.CR.Whitewashing-Brightcove.mov",
+    "published_at": "2016-07-15T13:55:54.992Z",
+    "reference_id": "LevinEp1",
+    "schedule": {
+      "ends_at": null,
+      "starts_at": "2016-07-15T19:02:07.000Z"
+    },
+    "sharing": null,
+    "state": "ACTIVE",
+    "tags": [
+      "terrorism",
+      "pence",
+      "levintv",
+      "election",
+      "foreign policy & defence",
+      "terror",
+      "france",
+      "2016 potus",
+      "climate change",
+      "trump",
+      "sample"
+    ],
+    "text_tracks": [],
+    "updated_at": "2016-09-16T09:18:21.361Z"
+  }
+]

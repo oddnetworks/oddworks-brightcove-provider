@@ -1,0 +1,17 @@
+{
+  "id": "5072647162001",
+  "account_id": "4988507123001",
+  "created_at": "2016-08-05T19:14:57.976Z",
+  "description": null,
+  "favorite": false,
+  "name": "Brightcove Playlist Test List_8_5",
+  "reference_id": null,
+  "type": "EXPLICIT",
+  "updated_at": "2016-09-22T17:38:01.917Z",
+  "video_ids": [
+    "5037038951001",
+    "5121708601001",
+    "4997852316001",
+    "5037038823001"
+  ]
+}
