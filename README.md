@@ -25,7 +25,7 @@ const options = {
     bus: bus,
     clientId: process.env.BRIGHTCOVE_CLIENT_ID,
     clientSecret: process.env.BRIGHTCOVE_CLIENT_SECRET,
-    accountId: process.env.BRIGHTCOVE_ACCOUNT_ID
+    accountId: process.env.BRIGHTCOVE_ACCOUNT_ID,
     policyKey: process.env.BRIGHTCOVE_POLICY_ID
 };
 
