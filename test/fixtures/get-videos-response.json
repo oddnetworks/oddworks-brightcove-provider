@@ -1,0 +1,1515 @@
+[
+  {
+    "id": "VV11111111111",
+    "account_id": "A111111111111",
+    "ad_keys": null,
+    "complete": true,
+    "created_at": "2016-09-20T11:40:24.105Z",
+    "cue_points": [],
+    "custom_fields": {
+      "creationdate": "2016-02-17T21:16:44Z",
+      "metatitle": " ",
+      "host1": " ",
+      "segmentorder": " ",
+      "publishdate": " ",
+      "parentepisodeid": "5qMXMxMTE6udbs6Ydf6a5_vvelnPbcT3"
+    },
+    "delivery_type": "static_origin",
+    "description": "Description for Video",
+    "digital_master_id": "5133213090001",
+    "duration": 45417,
+    "economics": "AD_SUPPORTED",
+    "folder_id": null,
+    "geo": null,
+    "has_digital_master": true,
+    "images": {
+      "thumbnail": {
+        "asset_id": "5133214857001",
+        "remote": false,
+        "src": "http://placehold.it/720x480?text=/v1/unsecured/media/A111111111111/201609/1046/A111111111111_5133214857001_VV11111111111-th.jpg?pubId=A111111111111&videoId=VV11111111111",
+        "sources": [
+          {
+            "src": "http://placehold.it/720x480?text=/v1/unsecured/media/A111111111111/201609/1046/A111111111111_5133214857001_VV11111111111-th.jpg?pubId=A111111111111&videoId=VV11111111111",
+            "height": 90,
+            "width": 160
+          },
+          {
+            "src": "https://placehold.it/720x480?text=/v2/unsecured/media/A111111111111/201609/1046/A111111111111_5133214857001_VV11111111111-th.jpg?pubId=A111111111111&videoId=VV11111111111",
+            "height": 90,
+            "width": 160
+          }
+        ]
+      },
+      "poster": {
+        "asset_id": "5133214859001",
+        "remote": false,
+        "src": "http://placehold.it/720x480?text=/v1/unsecured/media/A111111111111/201609/1046/A111111111111_5133214859001_VV11111111111-vs.jpg?pubId=A111111111111&videoId=VV11111111111",
+        "sources": [
+          {
+            "src": "http://placehold.it/720x480?text=/v1/unsecured/media/A111111111111/201609/1046/A111111111111_5133214859001_VV11111111111-vs.jpg?pubId=A111111111111&videoId=VV11111111111",
+            "height": 359,
+            "width": 640
+          },
+          {
+            "src": "https://placehold.it/720x480?text=/v2/unsecured/media/A111111111111/201609/1046/A111111111111_5133214859001_VV11111111111-vs.jpg?pubId=A111111111111&videoId=VV11111111111",
+            "height": 359,
+            "width": 640
+          }
+        ]
+      }
+    },
+    "link": null,
+    "long_description": "Long Description For Video",
+    "name": "Name Of Video",
+    "original_filename": "fielname.mp4",
+    "published_at": "2016-09-20T11:40:24.105Z",
+    "reference_id": "Q3cXIxMTE6xK7VtX5J04qcBE7C6lKrJh",
+    "schedule": null,
+    "sharing": null,
+    "state": "ACTIVE",
+    "tags": [
+      "speaker",
+      "clip",
+      "pr"
+    ],
+    "text_tracks": [],
+    "updated_at": "2016-09-22T14:38:33.462Z"
+  },
+  {
+    "id": "VV22222222222",
+    "account_id": "A111111111111",
+    "ad_keys": null,
+    "complete": true,
+    "created_at": "2016-09-20T11:39:50.932Z",
+    "cue_points": [],
+    "custom_fields": {
+      "creationdate": "2016-02-18T00:07:28Z",
+      "metatitle": " ",
+      "host1": "Guy Smiley",
+      "segmentorder": " ",
+      "publishdate": " ",
+      "parentepisodeid": " "
+    },
+    "delivery_type": "static_origin",
+    "description": "Description for Video",
+    "digital_master_id": "5133212878001",
+    "duration": 57910,
+    "economics": "AD_SUPPORTED",
+    "folder_id": null,
+    "geo": null,
+    "has_digital_master": true,
+    "images": {
+      "thumbnail": {
+        "asset_id": "5133212828001",
+        "remote": false,
+        "src": "http://placehold.it/720x480?text=/v1/unsecured/media/A111111111111/201609/3526/A111111111111_5133212828001_VV22222222222-th.jpg?pubId=A111111111111&videoId=VV22222222222",
+        "sources": [
+          {
+            "src": "http://placehold.it/720x480?text=/v1/unsecured/media/A111111111111/201609/3526/A111111111111_5133212828001_VV22222222222-th.jpg?pubId=A111111111111&videoId=VV22222222222",
+            "height": 90,
+            "width": 160
+          },
+          {
+            "src": "https://placehold.it/720x480?text=/v2/unsecured/media/A111111111111/201609/3526/A111111111111_5133212828001_VV22222222222-th.jpg?pubId=A111111111111&videoId=VV22222222222",
+            "height": 90,
+            "width": 160
+          }
+        ]
+      },
+      "poster": {
+        "asset_id": "5133212838001",
+        "remote": false,
+        "src": "http://placehold.it/720x480?text=/v1/unsecured/media/A111111111111/201609/3526/A111111111111_5133212838001_VV22222222222-vs.jpg?pubId=A111111111111&videoId=VV22222222222",
+        "sources": [
+          {
+            "src": "http://placehold.it/720x480?text=/v1/unsecured/media/A111111111111/201609/3526/A111111111111_5133212838001_VV22222222222-vs.jpg?pubId=A111111111111&videoId=VV22222222222",
+            "height": 360,
+            "width": 640
+          },
+          {
+            "src": "https://placehold.it/720x480?text=/v2/unsecured/media/A111111111111/201609/3526/A111111111111_5133212838001_VV22222222222-vs.jpg?pubId=A111111111111&videoId=VV22222222222",
+            "height": 360,
+            "width": 640
+          }
+        ]
+      }
+    },
+    "link": null,
+    "long_description": "Long Description For Video",
+    "name": "Name Of Video",
+    "original_filename": "fielname.mp4",
+    "published_at": "2016-09-20T11:39:50.932Z",
+    "reference_id": "pwOXcxMTE6RMXoRvZghs7gHlEIDmp07x",
+    "schedule": null,
+    "sharing": null,
+    "state": "ACTIVE",
+    "tags": [
+      "clip",
+      "error list",
+      "obelisk"
+    ],
+    "text_tracks": [],
+    "updated_at": "2016-09-22T14:37:49.612Z"
+  },
+  {
+    "id": "VV33333333333",
+    "account_id": "A111111111111",
+    "ad_keys": null,
+    "complete": true,
+    "created_at": "2016-09-20T11:38:38.539Z",
+    "cue_points": [],
+    "custom_fields": {
+      "creationdate": "2016-02-18T01:26:35Z",
+      "metatitle": " ",
+      "host1": "Guy Smiley",
+      "segmentorder": " ",
+      "publishdate": " ",
+      "parentepisodeid": " "
+    },
+    "delivery_type": "static_origin",
+    "description": "Description for Video",
+    "digital_master_id": "5133209931001",
+    "duration": 66710,
+    "economics": "AD_SUPPORTED",
+    "folder_id": null,
+    "geo": null,
+    "has_digital_master": true,
+    "images": {
+      "thumbnail": {
+        "asset_id": "5133209803001",
+        "remote": false,
+        "src": "http://placehold.it/720x480?text=/v1/unsecured/media/A111111111111/201609/966/A111111111111_5133209803001_VV33333333333-th.jpg?pubId=A111111111111&videoId=VV33333333333",
+        "sources": [
+          {
+            "src": "http://placehold.it/720x480?text=/v1/unsecured/media/A111111111111/201609/966/A111111111111_5133209803001_VV33333333333-th.jpg?pubId=A111111111111&videoId=VV33333333333",
+            "height": 90,
+            "width": 160
+          },
+          {
+            "src": "https://placehold.it/720x480?text=/v2/unsecured/media/A111111111111/201609/966/A111111111111_5133209803001_VV33333333333-th.jpg?pubId=A111111111111&videoId=VV33333333333",
+            "height": 90,
+            "width": 160
+          }
+        ]
+      },
+      "poster": {
+        "asset_id": "5133210125001",
+        "remote": false,
+        "src": "http://placehold.it/720x480?text=/v1/unsecured/media/A111111111111/201609/966/A111111111111_5133210125001_VV33333333333-vs.jpg?pubId=A111111111111&videoId=VV33333333333",
+        "sources": [
+          {
+            "src": "http://placehold.it/720x480?text=/v1/unsecured/media/A111111111111/201609/966/A111111111111_5133210125001_VV33333333333-vs.jpg?pubId=A111111111111&videoId=VV33333333333",
+            "height": 360,
+            "width": 640
+          },
+          {
+            "src": "https://placehold.it/720x480?text=/v2/unsecured/media/A111111111111/201609/966/A111111111111_5133210125001_VV33333333333-vs.jpg?pubId=A111111111111&videoId=VV33333333333",
+            "height": 360,
+            "width": 640
+          }
+        ]
+      }
+    },
+    "link": null,
+    "long_description": "Long Description For Video",
+    "name": "Name Of Video",
+    "original_filename": "fielname.mp4",
+    "published_at": "2016-09-20T11:38:38.539Z",
+    "reference_id": "ZvbXkxMTE6wPziA1bza-b1oy5NJ8GIai",
+    "schedule": null,
+    "sharing": null,
+    "state": "ACTIVE",
+    "tags": [
+      "clip",
+      "tv"
+    ],
+    "text_tracks": [],
+    "updated_at": "2016-09-22T14:36:46.198Z"
+  },
+  {
+    "id": "VV44444444444",
+    "account_id": "A111111111111",
+    "ad_keys": null,
+    "complete": true,
+    "created_at": "2016-09-20T11:38:26.610Z",
+    "cue_points": [],
+    "custom_fields": {
+      "creationdate": "2016-02-19T02:38:02Z",
+      "metatitle": " ",
+      "host1": "Guy Smiley",
+      "segmentorder": " ",
+      "publishdate": " ",
+      "parentepisodeid": " "
+    },
+    "delivery_type": "static_origin",
+    "description": "Description for Video",
+    "digital_master_id": "5133212900001",
+    "duration": 66710,
+    "economics": "AD_SUPPORTED",
+    "folder_id": null,
+    "geo": null,
+    "has_digital_master": true,
+    "images": {
+      "thumbnail": {
+        "asset_id": "5133210085001",
+        "remote": false,
+        "src": "http://placehold.it/720x480?text=/v1/unsecured/media/A111111111111/201609/2526/A111111111111_5133210085001_VV44444444444-th.jpg?pubId=A111111111111&videoId=VV44444444444",
+        "sources": [
+          {
+            "src": "http://placehold.it/720x480?text=/v1/unsecured/media/A111111111111/201609/2526/A111111111111_5133210085001_VV44444444444-th.jpg?pubId=A111111111111&videoId=VV44444444444",
+            "height": 90,
+            "width": 160
+          },
+          {
+            "src": "https://placehold.it/720x480?text=/v2/unsecured/media/A111111111111/201609/2526/A111111111111_5133210085001_VV44444444444-th.jpg?pubId=A111111111111&videoId=VV44444444444",
+            "height": 90,
+            "width": 160
+          }
+        ]
+      },
+      "poster": {
+        "asset_id": "5133209893001",
+        "remote": false,
+        "src": "http://placehold.it/720x480?text=/v1/unsecured/media/A111111111111/201609/2526/A111111111111_5133209893001_VV44444444444-vs.jpg?pubId=A111111111111&videoId=VV44444444444",
+        "sources": [
+          {
+            "src": "http://placehold.it/720x480?text=/v1/unsecured/media/A111111111111/201609/2526/A111111111111_5133209893001_VV44444444444-vs.jpg?pubId=A111111111111&videoId=VV44444444444",
+            "height": 360,
+            "width": 640
+          },
+          {
+            "src": "https://placehold.it/720x480?text=/v2/unsecured/media/A111111111111/201609/2526/A111111111111_5133209893001_VV44444444444-vs.jpg?pubId=A111111111111&videoId=VV44444444444",
+            "height": 360,
+            "width": 640
+          }
+        ]
+      }
+    },
+    "link": null,
+    "long_description": "Long Description For Video",
+    "name": "Name Of Video",
+    "original_filename": "fielname.mp4",
+    "published_at": "2016-09-20T11:38:26.610Z",
+    "reference_id": "84aXQyMTE6EPj8DpxvjaRq0NFWdmCaLj",
+    "schedule": null,
+    "sharing": null,
+    "state": "ACTIVE",
+    "tags": [
+      "tv",
+      "episode",
+      "premium content"
+    ],
+    "text_tracks": [],
+    "updated_at": "2016-09-22T14:36:23.851Z"
+  },
+  {
+    "id": "VV55555555555",
+    "account_id": "A111111111111",
+    "ad_keys": null,
+    "complete": true,
+    "created_at": "2016-09-20T11:39:15.539Z",
+    "cue_points": [],
+    "custom_fields": {
+      "creationdate": "2016-02-18T00:28:54Z",
+      "metatitle": " ",
+      "host1": "Guy Smiley",
+      "segmentorder": " ",
+      "publishdate": " ",
+      "parentepisodeid": " "
+    },
+    "delivery_type": "static_origin",
+    "description": "Description for Video",
+    "digital_master_id": "5133212807001",
+    "duration": 29582,
+    "economics": "AD_SUPPORTED",
+    "folder_id": null,
+    "geo": null,
+    "has_digital_master": true,
+    "images": {
+      "thumbnail": {
+        "asset_id": "5133214244001",
+        "remote": false,
+        "src": "http://placehold.it/720x480?text=/v1/unsecured/media/A111111111111/201609/94/A111111111111_5133214244001_VV55555555555-th.jpg?pubId=A111111111111&videoId=VV55555555555",
+        "sources": [
+          {
+            "src": "http://placehold.it/720x480?text=/v1/unsecured/media/A111111111111/201609/94/A111111111111_5133214244001_VV55555555555-th.jpg?pubId=A111111111111&videoId=VV55555555555",
+            "height": 90,
+            "width": 160
+          },
+          {
+            "src": "https://placehold.it/720x480?text=/v2/unsecured/media/A111111111111/201609/94/A111111111111_5133214244001_VV55555555555-th.jpg?pubId=A111111111111&videoId=VV55555555555",
+            "height": 90,
+            "width": 160
+          }
+        ]
+      },
+      "poster": {
+        "asset_id": "5133214245001",
+        "remote": false,
+        "src": "http://placehold.it/720x480?text=/v1/unsecured/media/A111111111111/201609/94/A111111111111_5133214245001_VV55555555555-vs.jpg?pubId=A111111111111&videoId=VV55555555555",
+        "sources": [
+          {
+            "src": "http://placehold.it/720x480?text=/v1/unsecured/media/A111111111111/201609/94/A111111111111_5133214245001_VV55555555555-vs.jpg?pubId=A111111111111&videoId=VV55555555555",
+            "height": 360,
+            "width": 640
+          },
+          {
+            "src": "https://placehold.it/720x480?text=/v2/unsecured/media/A111111111111/201609/94/A111111111111_5133214245001_VV55555555555-vs.jpg?pubId=A111111111111&videoId=VV55555555555",
+            "height": 360,
+            "width": 640
+          }
+        ]
+      }
+    },
+    "link": null,
+    "long_description": "Long Description For Video",
+    "name": "Name Of Video",
+    "original_filename": "fielname.mp4",
+    "published_at": "2016-09-20T11:39:15.539Z",
+    "reference_id": "5zcXcxMTE6WUo198L78-IF_-2mLe0lfL",
+    "schedule": null,
+    "sharing": null,
+    "state": "ACTIVE",
+    "tags": [
+      "clip",
+      "error list",
+      "balsam"
+    ],
+    "text_tracks": [],
+    "updated_at": "2016-09-22T14:34:38.685Z"
+  },
+  {
+    "id": "VV-2020202020",
+    "account_id": "A111111111111",
+    "ad_keys": null,
+    "complete": true,
+    "created_at": "2016-09-20T11:39:07.994Z",
+    "cue_points": [],
+    "custom_fields": {
+      "creationdate": "2016-02-18T00:37:48Z",
+      "metatitle": " ",
+      "host1": "Guy Smiley",
+      "segmentorder": "4",
+      "publishdate": " ",
+      "parentepisodeid": "oyN2k1NDE6h9Mk7ejdysV-hsoid50uHV"
+    },
+    "delivery_type": "static_origin",
+    "description": "Description for Video",
+    "digital_master_id": "5133214848001",
+    "duration": 47787,
+    "economics": "AD_SUPPORTED",
+    "folder_id": null,
+    "geo": null,
+    "has_digital_master": true,
+    "images": {
+      "thumbnail": {
+        "asset_id": "5133209952001",
+        "remote": false,
+        "src": "http://placehold.it/720x480?text=/v1/unsecured/media/A111111111111/201609/46/A111111111111_5133209952001_VV-2020202020-th.jpg?pubId=A111111111111&videoId=VV-2020202020",
+        "sources": [
+          {
+            "src": "http://placehold.it/720x480?text=/v1/unsecured/media/A111111111111/201609/46/A111111111111_5133209952001_VV-2020202020-th.jpg?pubId=A111111111111&videoId=VV-2020202020",
+            "height": 90,
+            "width": 160
+          },
+          {
+            "src": "https://placehold.it/720x480?text=/v2/unsecured/media/A111111111111/201609/46/A111111111111_5133209952001_VV-2020202020-th.jpg?pubId=A111111111111&videoId=VV-2020202020",
+            "height": 90,
+            "width": 160
+          }
+        ]
+      },
+      "poster": {
+        "asset_id": "5133212152001",
+        "remote": false,
+        "src": "http://placehold.it/720x480?text=/v1/unsecured/media/A111111111111/201609/46/A111111111111_5133212152001_VV-2020202020-vs.jpg?pubId=A111111111111&videoId=VV-2020202020",
+        "sources": [
+          {
+            "src": "http://placehold.it/720x480?text=/v1/unsecured/media/A111111111111/201609/46/A111111111111_5133212152001_VV-2020202020-vs.jpg?pubId=A111111111111&videoId=VV-2020202020",
+            "height": 360,
+            "width": 640
+          },
+          {
+            "src": "https://placehold.it/720x480?text=/v2/unsecured/media/A111111111111/201609/46/A111111111111_5133212152001_VV-2020202020-vs.jpg?pubId=A111111111111&videoId=VV-2020202020",
+            "height": 360,
+            "width": 640
+          }
+        ]
+      }
+    },
+    "link": null,
+    "long_description": "Long Description For Video",
+    "name": "Name Of Video",
+    "original_filename": "fielname.mp4",
+    "published_at": "2016-09-20T11:39:07.994Z",
+    "reference_id": "kxMHgxMTE6HjeEC7Mo-Z136_TD_rYPIq",
+    "schedule": null,
+    "sharing": null,
+    "state": "ACTIVE",
+    "tags": [
+      "clip",
+      "obelisk"
+    ],
+    "text_tracks": [],
+    "updated_at": "2016-09-22T14:33:48.507Z"
+  },
+  {
+    "id": "VV66666666666",
+    "account_id": "A111111111111",
+    "ad_keys": null,
+    "complete": true,
+    "created_at": "2016-09-20T11:38:50.364Z",
+    "cue_points": [],
+    "custom_fields": {
+      "creationdate": "2016-02-18T00:55:40Z",
+      "metatitle": " ",
+      "host1": "Guy%20Levin",
+      "segmentorder": " ",
+      "publishdate": " ",
+      "parentepisodeid": "5qMXMxMTE6udbs6Ydf6a5_vvelnPbcT3"
+    },
+    "delivery_type": "static_origin",
+    "description": "Description for Video",
+    "digital_master_id": "5133210154001",
+    "duration": 54960,
+    "economics": "AD_SUPPORTED",
+    "folder_id": null,
+    "geo": null,
+    "has_digital_master": true,
+    "images": {
+      "thumbnail": {
+        "asset_id": "5133209927001",
+        "remote": false,
+        "src": "http://placehold.it/720x480?text=/v1/unsecured/media/A111111111111/201609/3266/A111111111111_5133209927001_VV66666666666-th.jpg?pubId=A111111111111&videoId=VV66666666666",
+        "sources": [
+          {
+            "src": "http://placehold.it/720x480?text=/v1/unsecured/media/A111111111111/201609/3266/A111111111111_5133209927001_VV66666666666-th.jpg?pubId=A111111111111&videoId=VV66666666666",
+            "height": 90,
+            "width": 160
+          },
+          {
+            "src": "https://placehold.it/720x480?text=/v2/unsecured/media/A111111111111/201609/3266/A111111111111_5133209927001_VV66666666666-th.jpg?pubId=A111111111111&videoId=VV66666666666",
+            "height": 90,
+            "width": 160
+          }
+        ]
+      },
+      "poster": {
+        "asset_id": "5133210128001",
+        "remote": false,
+        "src": "http://placehold.it/720x480?text=/v1/unsecured/media/A111111111111/201609/3266/A111111111111_5133210128001_VV66666666666-vs.jpg?pubId=A111111111111&videoId=VV66666666666",
+        "sources": [
+          {
+            "src": "http://placehold.it/720x480?text=/v1/unsecured/media/A111111111111/201609/3266/A111111111111_5133210128001_VV66666666666-vs.jpg?pubId=A111111111111&videoId=VV66666666666",
+            "height": 360,
+            "width": 640
+          },
+          {
+            "src": "https://placehold.it/720x480?text=/v2/unsecured/media/A111111111111/201609/3266/A111111111111_5133210128001_VV66666666666-vs.jpg?pubId=A111111111111&videoId=VV66666666666",
+            "height": 360,
+            "width": 640
+          }
+        ]
+      }
+    },
+    "link": null,
+    "long_description": "Long Description For Video",
+    "name": "Name Of Video",
+    "original_filename": "fielname.mp4",
+    "published_at": "2016-09-20T11:38:50.364Z",
+    "reference_id": "w0ZHgxMTE6P1YLmlwuJ4ac7Q1BwV3fT5",
+    "schedule": null,
+    "sharing": null,
+    "state": "ACTIVE",
+    "tags": [
+      "clip",
+      "tv"
+    ],
+    "text_tracks": [],
+    "updated_at": "2016-09-22T14:32:56.824Z"
+  },
+  {
+    "id": "VV77777777777",
+    "account_id": "A111111111111",
+    "ad_keys": null,
+    "complete": true,
+    "created_at": "2016-09-20T11:39:11.836Z",
+    "cue_points": [],
+    "custom_fields": {
+      "creationdate": "2016-02-18T00:32:10Z",
+      "metatitle": " ",
+      "host1": "Guy Smiley",
+      "segmentorder": " ",
+      "publishdate": " ",
+      "parentepisodeid": " "
+    },
+    "delivery_type": "static_origin",
+    "description": "Description for Video",
+    "digital_master_id": "5133212797001",
+    "duration": 79760,
+    "economics": "AD_SUPPORTED",
+    "folder_id": null,
+    "geo": null,
+    "has_digital_master": true,
+    "images": {
+      "thumbnail": {
+        "asset_id": "5133212159001",
+        "remote": false,
+        "src": "http://placehold.it/720x480?text=/v1/unsecured/media/A111111111111/201609/3094/A111111111111_5133212159001_VV77777777777-th.jpg?pubId=A111111111111&videoId=VV77777777777",
+        "sources": [
+          {
+            "src": "http://placehold.it/720x480?text=/v1/unsecured/media/A111111111111/201609/3094/A111111111111_5133212159001_VV77777777777-th.jpg?pubId=A111111111111&videoId=VV77777777777",
+            "height": 90,
+            "width": 160
+          },
+          {
+            "src": "https://placehold.it/720x480?text=/v2/unsecured/media/A111111111111/201609/3094/A111111111111_5133212159001_VV77777777777-th.jpg?pubId=A111111111111&videoId=VV77777777777",
+            "height": 90,
+            "width": 160
+          }
+        ]
+      },
+      "poster": {
+        "asset_id": "5133209858001",
+        "remote": false,
+        "src": "http://placehold.it/720x480?text=/v1/unsecured/media/A111111111111/201609/3094/A111111111111_5133209858001_VV77777777777-vs.jpg?pubId=A111111111111&videoId=VV77777777777",
+        "sources": [
+          {
+            "src": "http://placehold.it/720x480?text=/v1/unsecured/media/A111111111111/201609/3094/A111111111111_5133209858001_VV77777777777-vs.jpg?pubId=A111111111111&videoId=VV77777777777",
+            "height": 360,
+            "width": 640
+          },
+          {
+            "src": "https://placehold.it/720x480?text=/v2/unsecured/media/A111111111111/201609/3094/A111111111111_5133209858001_VV77777777777-vs.jpg?pubId=A111111111111&videoId=VV77777777777",
+            "height": 360,
+            "width": 640
+          }
+        ]
+      }
+    },
+    "link": null,
+    "long_description": "Long Description For Video",
+    "name": "Name Of Video",
+    "original_filename": "fielname.mp4",
+    "published_at": "2016-09-20T11:39:11.836Z",
+    "reference_id": "t1dXcxMTE6_G-fhaCs7Y2ljA79-LeqNV",
+    "schedule": null,
+    "sharing": null,
+    "state": "ACTIVE",
+    "tags": [
+      "error lists",
+      "clip",
+      "error list"
+    ],
+    "text_tracks": [],
+    "updated_at": "2016-09-22T14:31:41.463Z"
+  },
+  {
+    "id": "VV88888888888",
+    "account_id": "A111111111111",
+    "ad_keys": null,
+    "complete": true,
+    "created_at": "2016-09-20T11:38:22.538Z",
+    "cue_points": [],
+    "custom_fields": {
+      "creationdate": "2016-02-19T22:33:29Z",
+      "metatitle": " ",
+      "host1": "Guy Smiley",
+      "segmentorder": " ",
+      "publishdate": " ",
+      "parentepisodeid": " "
+    },
+    "delivery_type": "static_origin",
+    "description": "Description for Video",
+    "digital_master_id": "5133214206001",
+    "duration": 870678,
+    "economics": "AD_SUPPORTED",
+    "folder_id": null,
+    "geo": null,
+    "has_digital_master": true,
+    "images": {
+      "thumbnail": {
+        "asset_id": "5133210081001",
+        "remote": false,
+        "src": "http://placehold.it/720x480?text=/v1/unsecured/media/A111111111111/201609/202/A111111111111_5133210081001_VV88888888888-th.jpg?pubId=A111111111111&videoId=VV88888888888",
+        "sources": [
+          {
+            "src": "http://placehold.it/720x480?text=/v1/unsecured/media/A111111111111/201609/202/A111111111111_5133210081001_VV88888888888-th.jpg?pubId=A111111111111&videoId=VV88888888888",
+            "height": 89,
+            "width": 160
+          },
+          {
+            "src": "https://placehold.it/720x480?text=/v2/unsecured/media/A111111111111/201609/202/A111111111111_5133210081001_VV88888888888-th.jpg?pubId=A111111111111&videoId=VV88888888888",
+            "height": 89,
+            "width": 160
+          }
+        ]
+      },
+      "poster": {
+        "asset_id": "5133209794001",
+        "remote": false,
+        "src": "http://placehold.it/720x480?text=/v1/unsecured/media/A111111111111/201609/202/A111111111111_5133209794001_VV88888888888-vs.jpg?pubId=A111111111111&videoId=VV88888888888",
+        "sources": [
+          {
+            "src": "http://placehold.it/720x480?text=/v1/unsecured/media/A111111111111/201609/202/A111111111111_5133209794001_VV88888888888-vs.jpg?pubId=A111111111111&videoId=VV88888888888",
+            "height": 357,
+            "width": 640
+          },
+          {
+            "src": "https://placehold.it/720x480?text=/v2/unsecured/media/A111111111111/201609/202/A111111111111_5133209794001_VV88888888888-vs.jpg?pubId=A111111111111&videoId=VV88888888888",
+            "height": 357,
+            "width": 640
+          }
+        ]
+      }
+    },
+    "link": null,
+    "long_description": "Long Description For Video",
+    "name": "Name Of Video",
+    "original_filename": "fielname.mp4",
+    "published_at": "2016-09-20T11:38:22.538Z",
+    "reference_id": "9wNWczMTE6VPlNGFeSFypLBb4REfk5HK",
+    "schedule": null,
+    "sharing": null,
+    "state": "ACTIVE",
+    "tags": [
+      "clip",
+      "conservation review",
+      "pelican",
+      "conservation",
+      "crcon"
+    ],
+    "text_tracks": [],
+    "updated_at": "2016-09-22T14:30:46.036Z"
+  },
+  {
+    "id": "VV99999999999",
+    "account_id": "A111111111111",
+    "ad_keys": null,
+    "complete": true,
+    "created_at": "2016-09-20T11:37:34.639Z",
+    "cue_points": [],
+    "custom_fields": {
+      "creationdate": "2016-03-08T21:43:04Z",
+      "metatitle": " ",
+      "host1": "Guy Smiley",
+      "segmentorder": " ",
+      "publishdate": " ",
+      "parentepisodeid": " "
+    },
+    "delivery_type": "static_origin",
+    "description": "Description for Video",
+    "digital_master_id": "5133209682001",
+    "duration": 28978,
+    "economics": "AD_SUPPORTED",
+    "folder_id": null,
+    "geo": null,
+    "has_digital_master": true,
+    "images": {
+      "thumbnail": {
+        "asset_id": "5133211703001",
+        "remote": false,
+        "src": "http://placehold.it/720x480?text=/v1/unsecured/media/A111111111111/201609/202/A111111111111_5133211703001_VV99999999999-th.jpg?pubId=A111111111111&videoId=VV99999999999",
+        "sources": [
+          {
+            "src": "http://placehold.it/720x480?text=/v1/unsecured/media/A111111111111/201609/202/A111111111111_5133211703001_VV99999999999-th.jpg?pubId=A111111111111&videoId=VV99999999999",
+            "height": 90,
+            "width": 160
+          },
+          {
+            "src": "https://placehold.it/720x480?text=/v2/unsecured/media/A111111111111/201609/202/A111111111111_5133211703001_VV99999999999-th.jpg?pubId=A111111111111&videoId=VV99999999999",
+            "height": 90,
+            "width": 160
+          }
+        ]
+      },
+      "poster": {
+        "asset_id": "5133209509001",
+        "remote": false,
+        "src": "http://placehold.it/720x480?text=/v1/unsecured/media/A111111111111/201609/202/A111111111111_5133209509001_VV99999999999-vs.jpg?pubId=A111111111111&videoId=VV99999999999",
+        "sources": [
+          {
+            "src": "http://placehold.it/720x480?text=/v1/unsecured/media/A111111111111/201609/202/A111111111111_5133209509001_VV99999999999-vs.jpg?pubId=A111111111111&videoId=VV99999999999",
+            "height": 360,
+            "width": 640
+          },
+          {
+            "src": "https://placehold.it/720x480?text=/v2/unsecured/media/A111111111111/201609/202/A111111111111_5133209509001_VV99999999999-vs.jpg?pubId=A111111111111&videoId=VV99999999999",
+            "height": 360,
+            "width": 640
+          }
+        ]
+      }
+    },
+    "link": null,
+    "long_description": "Long Description For Video",
+    "name": "Name Of Video",
+    "original_filename": "fielname.mp4",
+    "published_at": "2016-09-20T11:37:34.639Z",
+    "reference_id": "93NDh0MTE6xhyWrKK7XFaT6fKD-rXaJZ",
+    "schedule": null,
+    "sharing": null,
+    "state": "ACTIVE",
+    "tags": [
+      "clip",
+      "pelican",
+      "pelican establishment",
+      "pelican convention",
+    ],
+    "text_tracks": [],
+    "updated_at": "2016-09-22T14:29:51.011Z"
+  },
+  {
+    "id": "VV-1010101010",
+    "account_id": "A111111111111",
+    "ad_keys": null,
+    "complete": true,
+    "created_at": "2016-09-20T11:40:09.045Z",
+    "cue_points": [],
+    "custom_fields": {
+      "creationdate": "2016-02-17T23:52:40Z",
+      "metatitle": " ",
+      "host1": "Guy Smiley",
+      "segmentorder": " ",
+      "publishdate": " ",
+      "parentepisodeid": " "
+    },
+    "delivery_type": "static_origin",
+    "description": "Description for Video",
+    "digital_master_id": "5133214845001",
+    "duration": 67313,
+    "economics": "AD_SUPPORTED",
+    "folder_id": null,
+    "geo": null,
+    "has_digital_master": true,
+    "images": {
+      "thumbnail": {
+        "asset_id": "5133212965001",
+        "remote": false,
+        "src": "http://placehold.it/720x480?text=/v1/unsecured/media/A111111111111/201609/338/A111111111111_5133212965001_VV-1010101010-th.jpg?pubId=A111111111111&videoId=VV-1010101010",
+        "sources": [
+          {
+            "src": "http://placehold.it/720x480?text=/v1/unsecured/media/A111111111111/201609/338/A111111111111_5133212965001_VV-1010101010-th.jpg?pubId=A111111111111&videoId=VV-1010101010",
+            "height": 90,
+            "width": 160
+          },
+          {
+            "src": "https://placehold.it/720x480?text=/v2/unsecured/media/A111111111111/201609/338/A111111111111_5133212965001_VV-1010101010-th.jpg?pubId=A111111111111&videoId=VV-1010101010",
+            "height": 90,
+            "width": 160
+          }
+        ]
+      },
+      "poster": {
+        "asset_id": "5133212662001",
+        "remote": false,
+        "src": "http://placehold.it/720x480?text=/v1/unsecured/media/A111111111111/201609/338/A111111111111_5133212662001_VV-1010101010-vs.jpg?pubId=A111111111111&videoId=VV-1010101010",
+        "sources": [
+          {
+            "src": "http://placehold.it/720x480?text=/v1/unsecured/media/A111111111111/201609/338/A111111111111_5133212662001_VV-1010101010-vs.jpg?pubId=A111111111111&videoId=VV-1010101010",
+            "height": 360,
+            "width": 640
+          },
+          {
+            "src": "https://placehold.it/720x480?text=/v2/unsecured/media/A111111111111/201609/338/A111111111111_5133212662001_VV-1010101010-vs.jpg?pubId=A111111111111&videoId=VV-1010101010",
+            "height": 360,
+            "width": 640
+          }
+        ]
+      }
+    },
+    "link": null,
+    "long_description": "Long Description For Video",
+    "name": "Name Of Video",
+    "original_filename": "fielname.mp4",
+    "published_at": "2016-09-20T11:40:09.045Z",
+    "reference_id": "Vwd3YxMTE6_0-Ws3xA9Jh_R1rUMUaiD8",
+    "schedule": null,
+    "sharing": null,
+    "state": "ACTIVE",
+    "tags": [
+      "clip",
+      "shareable"
+    ],
+    "text_tracks": [],
+    "updated_at": "2016-09-22T14:28:54.933Z"
+  },
+  {
+    "id": "VV-1111111111",
+    "account_id": "A111111111111",
+    "ad_keys": null,
+    "complete": true,
+    "created_at": "2016-09-20T11:38:06.553Z",
+    "cue_points": [],
+    "custom_fields": {
+      "creationdate": "2016-02-25T00:30:59Z",
+      "metatitle": " ",
+      "host1": "Guy Smiley",
+      "segmentorder": " ",
+      "publishdate": " ",
+      "parentepisodeid": " "
+    },
+    "delivery_type": "static_origin",
+    "description": "Description for Video",
+    "digital_master_id": "5133209880001",
+    "duration": 37685,
+    "economics": "AD_SUPPORTED",
+    "folder_id": null,
+    "geo": null,
+    "has_digital_master": true,
+    "images": {
+      "thumbnail": {
+        "asset_id": "5133209775001",
+        "remote": false,
+        "src": "http://placehold.it/720x480?text=/v1/unsecured/media/A111111111111/201609/3202/A111111111111_5133209775001_VV-1111111111-th.jpg?pubId=A111111111111&videoId=VV-1111111111",
+        "sources": [
+          {
+            "src": "http://placehold.it/720x480?text=/v1/unsecured/media/A111111111111/201609/3202/A111111111111_5133209775001_VV-1111111111-th.jpg?pubId=A111111111111&videoId=VV-1111111111",
+            "height": 90,
+            "width": 160
+          },
+          {
+            "src": "https://placehold.it/720x480?text=/v2/unsecured/media/A111111111111/201609/3202/A111111111111_5133209775001_VV-1111111111-th.jpg?pubId=A111111111111&videoId=VV-1111111111",
+            "height": 90,
+            "width": 160
+          }
+        ]
+      },
+      "poster": {
+        "asset_id": "5133211888001",
+        "remote": false,
+        "src": "http://placehold.it/720x480?text=/v1/unsecured/media/A111111111111/201609/3202/A111111111111_5133211888001_VV-1111111111-vs.jpg?pubId=A111111111111&videoId=VV-1111111111",
+        "sources": [
+          {
+            "src": "http://placehold.it/720x480?text=/v1/unsecured/media/A111111111111/201609/3202/A111111111111_5133211888001_VV-1111111111-vs.jpg?pubId=A111111111111&videoId=VV-1111111111",
+            "height": 360,
+            "width": 640
+          },
+          {
+            "src": "https://placehold.it/720x480?text=/v2/unsecured/media/A111111111111/201609/3202/A111111111111_5133211888001_VV-1111111111-vs.jpg?pubId=A111111111111&videoId=VV-1111111111",
+            "height": 360,
+            "width": 640
+          }
+        ]
+      }
+    },
+    "link": null,
+    "long_description": "Long Description For Video",
+    "name": "Name Of Video",
+    "original_filename": "fielname.mp4",
+    "published_at": "2016-09-20T11:38:06.553Z",
+    "reference_id": "M1Z3Y5MTE6J5Cvw3VvZRmJfH4ADznXGz",
+    "schedule": null,
+    "sharing": null,
+    "state": "ACTIVE",
+    "tags": [
+      "clip"
+    ],
+    "text_tracks": [],
+    "updated_at": "2016-09-22T14:28:03.885Z"
+  },
+  {
+    "id": "VV-1212121212",
+    "account_id": "A111111111111",
+    "ad_keys": null,
+    "complete": true,
+    "created_at": "2016-09-20T11:39:58.196Z",
+    "cue_points": [],
+    "custom_fields": {
+      "creationdate": "2016-02-18T00:00:02Z",
+      "metatitle": " ",
+      "host1": "Guy Smiley",
+      "segmentorder": " ",
+      "publishdate": " ",
+      "parentepisodeid": " "
+    },
+    "delivery_type": "static_origin",
+    "description": "Description for Video",
+    "digital_master_id": "5133214856001",
+    "duration": 51525,
+    "economics": "AD_SUPPORTED",
+    "folder_id": null,
+    "geo": null,
+    "has_digital_master": true,
+    "images": {
+      "thumbnail": {
+        "asset_id": "5133213039001",
+        "remote": false,
+        "src": "http://placehold.it/720x480?text=/v1/unsecured/media/A111111111111/201609/1526/A111111111111_5133213039001_VV-1212121212-th.jpg?pubId=A111111111111&videoId=VV-1212121212",
+        "sources": [
+          {
+            "src": "http://placehold.it/720x480?text=/v1/unsecured/media/A111111111111/201609/1526/A111111111111_5133213039001_VV-1212121212-th.jpg?pubId=A111111111111&videoId=VV-1212121212",
+            "height": 89,
+            "width": 160
+          },
+          {
+            "src": "https://placehold.it/720x480?text=/v2/unsecured/media/A111111111111/201609/1526/A111111111111_5133213039001_VV-1212121212-th.jpg?pubId=A111111111111&videoId=VV-1212121212",
+            "height": 89,
+            "width": 160
+          }
+        ]
+      },
+      "poster": {
+        "asset_id": "5133212845001",
+        "remote": false,
+        "src": "http://placehold.it/720x480?text=/v1/unsecured/media/A111111111111/201609/1526/A111111111111_5133212845001_VV-1212121212-vs.jpg?pubId=A111111111111&videoId=VV-1212121212",
+        "sources": [
+          {
+            "src": "http://placehold.it/720x480?text=/v1/unsecured/media/A111111111111/201609/1526/A111111111111_5133212845001_VV-1212121212-vs.jpg?pubId=A111111111111&videoId=VV-1212121212",
+            "height": 357,
+            "width": 640
+          },
+          {
+            "src": "https://placehold.it/720x480?text=/v2/unsecured/media/A111111111111/201609/1526/A111111111111_5133212845001_VV-1212121212-vs.jpg?pubId=A111111111111&videoId=VV-1212121212",
+            "height": 357,
+            "width": 640
+          }
+        ]
+      }
+    },
+    "link": null,
+    "long_description": "Long Description For Video",
+    "name": "Name Of Video",
+    "original_filename": "fielname.mp4",
+    "published_at": "2016-09-20T11:39:58.196Z",
+    "reference_id": "dqM3cxMTE6BLrZYJ_b15TrfNyJ7j2zQU",
+    "schedule": null,
+    "sharing": null,
+    "state": "ACTIVE",
+    "tags": [
+      "clip",
+      "library",
+      "myth"
+    ],
+    "text_tracks": [],
+    "updated_at": "2016-09-22T14:26:32.488Z"
+  },
+  {
+    "id": "VV-1313131313",
+    "account_id": "A111111111111",
+    "ad_keys": null,
+    "complete": true,
+    "created_at": "2016-09-20T11:39:54.599Z",
+    "cue_points": [],
+    "custom_fields": {
+      "creationdate": "2016-02-18T00:03:51Z",
+      "metatitle": " ",
+      "host1": "Guy Smiley",
+      "segmentorder": " ",
+      "publishdate": " ",
+      "parentepisodeid": " "
+    },
+    "delivery_type": "static_origin",
+    "description": "Description for Video",
+    "digital_master_id": "5133212756001",
+    "duration": 67243,
+    "economics": "AD_SUPPORTED",
+    "folder_id": null,
+    "geo": null,
+    "has_digital_master": true,
+    "images": {
+      "thumbnail": {
+        "asset_id": "5133212643001",
+        "remote": false,
+        "src": "http://placehold.it/720x480?text=/v1/unsecured/media/A111111111111/201609/2266/A111111111111_5133212643001_VV-1313131313-th.jpg?pubId=A111111111111&videoId=VV-1313131313",
+        "sources": [
+          {
+            "src": "http://placehold.it/720x480?text=/v1/unsecured/media/A111111111111/201609/2266/A111111111111_5133212643001_VV-1313131313-th.jpg?pubId=A111111111111&videoId=VV-1313131313",
+            "height": 90,
+            "width": 160
+          },
+          {
+            "src": "https://placehold.it/720x480?text=/v2/unsecured/media/A111111111111/201609/2266/A111111111111_5133212643001_VV-1313131313-th.jpg?pubId=A111111111111&videoId=VV-1313131313",
+            "height": 90,
+            "width": 160
+          }
+        ]
+      },
+      "poster": {
+        "asset_id": "5133212745001",
+        "remote": false,
+        "src": "http://placehold.it/720x480?text=/v1/unsecured/media/A111111111111/201609/2266/A111111111111_5133212745001_VV-1313131313-vs.jpg?pubId=A111111111111&videoId=VV-1313131313",
+        "sources": [
+          {
+            "src": "http://placehold.it/720x480?text=/v1/unsecured/media/A111111111111/201609/2266/A111111111111_5133212745001_VV-1313131313-vs.jpg?pubId=A111111111111&videoId=VV-1313131313",
+            "height": 360,
+            "width": 640
+          },
+          {
+            "src": "https://placehold.it/720x480?text=/v2/unsecured/media/A111111111111/201609/2266/A111111111111_5133212745001_VV-1313131313-vs.jpg?pubId=A111111111111&videoId=VV-1313131313",
+            "height": 360,
+            "width": 640
+          }
+        ]
+      }
+    },
+    "link": null,
+    "long_description": "Long Description For Video",
+    "name": "Name Of Video",
+    "original_filename": "fielname.mp4",
+    "published_at": "2016-09-20T11:39:54.599Z",
+    "reference_id": "QzN3cxMTE6Wfv8TL-40ssLI-bEcl82xc",
+    "schedule": null,
+    "sharing": null,
+    "state": "ACTIVE",
+    "tags": [
+      "clip",
+      "error list"
+    ],
+    "text_tracks": [],
+    "updated_at": "2016-09-22T14:25:46.627Z"
+  },
+  {
+    "id": "VV-1414141414",
+    "account_id": "A111111111111",
+    "ad_keys": null,
+    "complete": true,
+    "created_at": "2016-09-20T11:38:02.533Z",
+    "cue_points": [],
+    "custom_fields": {
+      "creationdate": "2016-02-25T00:34:54Z",
+      "metatitle": " ",
+      "host1": "Guy Smiley",
+      "segmentorder": " ",
+      "publishdate": " ",
+      "parentepisodeid": " "
+    },
+    "delivery_type": "static_origin",
+    "description": "Description for Video",
+    "digital_master_id": "5133210100001",
+    "duration": 64178,
+    "economics": "AD_SUPPORTED",
+    "folder_id": null,
+    "geo": null,
+    "has_digital_master": true,
+    "images": {
+      "thumbnail": {
+        "asset_id": "5133209767001",
+        "remote": false,
+        "src": "http://placehold.it/720x480?text=/v1/unsecured/media/A111111111111/201609/2178/A111111111111_5133209767001_VV-1414141414-th.jpg?pubId=A111111111111&videoId=VV-1414141414",
+        "sources": [
+          {
+            "src": "http://placehold.it/720x480?text=/v1/unsecured/media/A111111111111/201609/2178/A111111111111_5133209767001_VV-1414141414-th.jpg?pubId=A111111111111&videoId=VV-1414141414",
+            "height": 90,
+            "width": 160
+          },
+          {
+            "src": "https://placehold.it/720x480?text=/v2/unsecured/media/A111111111111/201609/2178/A111111111111_5133209767001_VV-1414141414-th.jpg?pubId=A111111111111&videoId=VV-1414141414",
+            "height": 90,
+            "width": 160
+          }
+        ]
+      },
+      "poster": {
+        "asset_id": "5133209448001",
+        "remote": false,
+        "src": "http://placehold.it/720x480?text=/v1/unsecured/media/A111111111111/201609/2178/A111111111111_5133209448001_VV-1414141414-vs.jpg?pubId=A111111111111&videoId=VV-1414141414",
+        "sources": [
+          {
+            "src": "http://placehold.it/720x480?text=/v1/unsecured/media/A111111111111/201609/2178/A111111111111_5133209448001_VV-1414141414-vs.jpg?pubId=A111111111111&videoId=VV-1414141414",
+            "height": 360,
+            "width": 640
+          },
+          {
+            "src": "https://placehold.it/720x480?text=/v2/unsecured/media/A111111111111/201609/2178/A111111111111_5133209448001_VV-1414141414-vs.jpg?pubId=A111111111111&videoId=VV-1414141414",
+            "height": 360,
+            "width": 640
+          }
+        ]
+      }
+    },
+    "link": null,
+    "long_description": "Long Description For Video",
+    "name": "Name Of Video",
+    "original_filename": "fielname.mp4",
+    "published_at": "2016-09-20T11:38:02.533Z",
+    "reference_id": "BzanY5MTE65KlHt32G5kHEIoJrqfS6QO",
+    "schedule": null,
+    "sharing": null,
+    "state": "ACTIVE",
+    "tags": [
+      "error lists",
+      "clip",
+      "obelisk",
+      "balsamic error lists"
+    ],
+    "text_tracks": [],
+    "updated_at": "2016-09-22T14:24:49.520Z"
+  },
+  {
+    "id": "VV-1515151515",
+    "account_id": "A111111111111",
+    "ad_keys": null,
+    "complete": true,
+    "created_at": "2016-09-20T11:39:36.790Z",
+    "cue_points": [],
+    "custom_fields": {
+      "creationdate": "2016-02-18T00:19:21Z",
+      "metatitle": " ",
+      "host1": "Guy Smiley",
+      "segmentorder": "2",
+      "publishdate": " ",
+      "parentepisodeid": "oyN2k1NDE6h9Mk7ejdysV-hsoid50uHV"
+    },
+    "delivery_type": "static_origin",
+    "description": "Description for Video",
+    "digital_master_id": "5133212642001",
+    "duration": 78273,
+    "economics": "AD_SUPPORTED",
+    "folder_id": null,
+    "geo": null,
+    "has_digital_master": true,
+    "images": {
+      "thumbnail": {
+        "asset_id": "5133212611001",
+        "remote": false,
+        "src": "http://placehold.it/720x480?text=/v1/unsecured/media/A111111111111/201609/142/A111111111111_5133212611001_VV-1515151515-th.jpg?pubId=A111111111111&videoId=VV-1515151515",
+        "sources": [
+          {
+            "src": "http://placehold.it/720x480?text=/v1/unsecured/media/A111111111111/201609/142/A111111111111_5133212611001_VV-1515151515-th.jpg?pubId=A111111111111&videoId=VV-1515151515",
+            "height": 90,
+            "width": 160
+          },
+          {
+            "src": "https://placehold.it/720x480?text=/v2/unsecured/media/A111111111111/201609/142/A111111111111_5133212611001_VV-1515151515-th.jpg?pubId=A111111111111&videoId=VV-1515151515",
+            "height": 90,
+            "width": 160
+          }
+        ]
+      },
+      "poster": {
+        "asset_id": "5133214264001",
+        "remote": false,
+        "src": "http://placehold.it/720x480?text=/v1/unsecured/media/A111111111111/201609/142/A111111111111_5133214264001_VV-1515151515-vs.jpg?pubId=A111111111111&videoId=VV-1515151515",
+        "sources": [
+          {
+            "src": "http://placehold.it/720x480?text=/v1/unsecured/media/A111111111111/201609/142/A111111111111_5133214264001_VV-1515151515-vs.jpg?pubId=A111111111111&videoId=VV-1515151515",
+            "height": 360,
+            "width": 640
+          },
+          {
+            "src": "https://placehold.it/720x480?text=/v2/unsecured/media/A111111111111/201609/142/A111111111111_5133214264001_VV-1515151515-vs.jpg?pubId=A111111111111&videoId=VV-1515151515",
+            "height": 360,
+            "width": 640
+          }
+        ]
+      }
+    },
+    "link": null,
+    "long_description": "Long Description For Video",
+    "name": "Name Of Video",
+    "original_filename": "fielname.mp4",
+    "published_at": "2016-09-20T11:39:36.790Z",
+    "reference_id": "94ancxMTE60G0DRDrbXTuAs7e8J_coxO",
+    "schedule": null,
+    "sharing": null,
+    "state": "ACTIVE",
+    "tags": [
+      "clip",
+      "iris",
+      "library"
+    ],
+    "text_tracks": [],
+    "updated_at": "2016-09-22T14:23:32.595Z"
+  },
+  {
+    "id": "VV-1616161616",
+    "account_id": "A111111111111",
+    "ad_keys": null,
+    "complete": true,
+    "created_at": "2016-09-20T11:39:40.395Z",
+    "cue_points": [],
+    "custom_fields": {
+      "creationdate": "2016-02-18T00:14:52Z",
+      "metatitle": " ",
+      "host1": "Guy Smiley",
+      "segmentorder": "3",
+      "publishdate": " ",
+      "parentepisodeid": "oyN2k1NDE6h9Mk7ejdysV-hsoid50uHV"
+    },
+    "delivery_type": "static_origin",
+    "description": "Description for Video",
+    "digital_master_id": "5133213232001",
+    "duration": 62483,
+    "economics": "AD_SUPPORTED",
+    "folder_id": null,
+    "geo": null,
+    "has_digital_master": true,
+    "images": {
+      "thumbnail": {
+        "asset_id": "5133214269001",
+        "remote": false,
+        "src": "http://placehold.it/720x480?text=/v1/unsecured/media/A111111111111/201609/1266/A111111111111_5133214269001_VV-1616161616-th.jpg?pubId=A111111111111&videoId=VV-1616161616",
+        "sources": [
+          {
+            "src": "http://placehold.it/720x480?text=/v1/unsecured/media/A111111111111/201609/1266/A111111111111_5133214269001_VV-1616161616-th.jpg?pubId=A111111111111&videoId=VV-1616161616",
+            "height": 90,
+            "width": 160
+          },
+          {
+            "src": "https://placehold.it/720x480?text=/v2/unsecured/media/A111111111111/201609/1266/A111111111111_5133214269001_VV-1616161616-th.jpg?pubId=A111111111111&videoId=VV-1616161616",
+            "height": 90,
+            "width": 160
+          }
+        ]
+      },
+      "poster": {
+        "asset_id": "5133213005001",
+        "remote": false,
+        "src": "http://placehold.it/720x480?text=/v1/unsecured/media/A111111111111/201609/1266/A111111111111_5133213005001_VV-1616161616-vs.jpg?pubId=A111111111111&videoId=VV-1616161616",
+        "sources": [
+          {
+            "src": "http://placehold.it/720x480?text=/v1/unsecured/media/A111111111111/201609/1266/A111111111111_5133213005001_VV-1616161616-vs.jpg?pubId=A111111111111&videoId=VV-1616161616",
+            "height": 360,
+            "width": 640
+          },
+          {
+            "src": "https://placehold.it/720x480?text=/v2/unsecured/media/A111111111111/201609/1266/A111111111111_5133213005001_VV-1616161616-vs.jpg?pubId=A111111111111&videoId=VV-1616161616",
+            "height": 360,
+            "width": 640
+          }
+        ]
+      }
+    },
+    "link": null,
+    "long_description": "Long Description For Video",
+    "name": "Name Of Video",
+    "original_filename": "fielname.mp4",
+    "published_at": "2016-09-20T11:39:40.395Z",
+    "reference_id": "dhZ3cxMTE6sdNak0Ju4i4W34asSSP1F5",
+    "schedule": null,
+    "sharing": null,
+    "state": "ACTIVE",
+    "tags": [
+      "sanctuary cities",
+      "clip"
+    ],
+    "text_tracks": [],
+    "updated_at": "2016-09-22T14:22:25.284Z"
+  },
+  {
+    "id": "VV-1717171717",
+    "account_id": "A111111111111",
+    "ad_keys": null,
+    "complete": true,
+    "created_at": "2016-09-20T11:39:29.964Z",
+    "cue_points": [],
+    "custom_fields": {
+      "creationdate": "2016-02-18T00:23:40Z",
+      "metatitle": " ",
+      "host1": "Guy Smiley",
+      "segmentorder": "1",
+      "publishdate": " ",
+      "parentepisodeid": "oyN2k1NDE6h9Mk7ejdysV-hsoid50uHV"
+    },
+    "delivery_type": "static_origin",
+    "description": "Description for Video",
+    "digital_master_id": "5133212616001",
+    "duration": 40285,
+    "economics": "AD_SUPPORTED",
+    "folder_id": null,
+    "geo": null,
+    "has_digital_master": true,
+    "images": {
+      "thumbnail": {
+        "asset_id": "5133212896001",
+        "remote": false,
+        "src": "http://placehold.it/720x480?text=/v1/unsecured/media/A111111111111/201609/2142/A111111111111_5133212896001_VV-1717171717-th.jpg?pubId=A111111111111&videoId=VV-1717171717",
+        "sources": [
+          {
+            "src": "http://placehold.it/720x480?text=/v1/unsecured/media/A111111111111/201609/2142/A111111111111_5133212896001_VV-1717171717-th.jpg?pubId=A111111111111&videoId=VV-1717171717",
+            "height": 90,
+            "width": 160
+          },
+          {
+            "src": "https://placehold.it/720x480?text=/v2/unsecured/media/A111111111111/201609/2142/A111111111111_5133212896001_VV-1717171717-th.jpg?pubId=A111111111111&videoId=VV-1717171717",
+            "height": 90,
+            "width": 160
+          }
+        ]
+      },
+      "poster": {
+        "asset_id": "5133214252001",
+        "remote": false,
+        "src": "http://placehold.it/720x480?text=/v1/unsecured/media/A111111111111/201609/2142/A111111111111_5133214252001_VV-1717171717-vs.jpg?pubId=A111111111111&videoId=VV-1717171717",
+        "sources": [
+          {
+            "src": "http://placehold.it/720x480?text=/v1/unsecured/media/A111111111111/201609/2142/A111111111111_5133214252001_VV-1717171717-vs.jpg?pubId=A111111111111&videoId=VV-1717171717",
+            "height": 360,
+            "width": 640
+          },
+          {
+            "src": "https://placehold.it/720x480?text=/v2/unsecured/media/A111111111111/201609/2142/A111111111111_5133214252001_VV-1717171717-vs.jpg?pubId=A111111111111&videoId=VV-1717171717",
+            "height": 360,
+            "width": 640
+          }
+        ]
+      }
+    },
+    "link": null,
+    "long_description": "Long Description For Video",
+    "name": "Name Of Video",
+    "original_filename": "fielname.mp4",
+    "published_at": "2016-09-20T11:39:29.964Z",
+    "reference_id": "kzbncxMTE60vlTV5gy02CJljkXXBfoSc",
+    "schedule": null,
+    "sharing": null,
+    "state": "ACTIVE",
+    "tags": [
+      "pelicans",
+      "clip"
+    ],
+    "text_tracks": [],
+    "updated_at": "2016-09-22T14:21:30.929Z"
+  },
+  {
+    "id": "VV-1818181818",
+    "account_id": "A111111111111",
+    "ad_keys": null,
+    "complete": true,
+    "created_at": "2016-09-20T11:40:16.092Z",
+    "cue_points": [],
+    "custom_fields": {
+      "creationdate": "2016-02-17T21:30:18Z",
+      "metatitle": " ",
+      "host1": "Guy Smiley",
+      "segmentorder": " ",
+      "publishdate": " ",
+      "parentepisodeid": " "
+    },
+    "delivery_type": "static_origin",
+    "description": "Description for Video",
+    "digital_master_id": "5133215333001",
+    "duration": 82732,
+    "economics": "AD_SUPPORTED",
+    "folder_id": null,
+    "geo": null,
+    "has_digital_master": true,
+    "images": {
+      "thumbnail": {
+        "asset_id": "5133213057001",
+        "remote": false,
+        "src": "http://placehold.it/720x480?text=/v1/unsecured/media/A111111111111/201609/1142/A111111111111_5133213057001_VV-1818181818-th.jpg?pubId=A111111111111&videoId=VV-1818181818",
+        "sources": [
+          {
+            "src": "http://placehold.it/720x480?text=/v1/unsecured/media/A111111111111/201609/1142/A111111111111_5133213057001_VV-1818181818-th.jpg?pubId=A111111111111&videoId=VV-1818181818",
+            "height": 90,
+            "width": 160
+          },
+          {
+            "src": "https://placehold.it/720x480?text=/v2/unsecured/media/A111111111111/201609/1142/A111111111111_5133213057001_VV-1818181818-th.jpg?pubId=A111111111111&videoId=VV-1818181818",
+            "height": 90,
+            "width": 160
+          }
+        ]
+      },
+      "poster": {
+        "asset_id": "5133213060001",
+        "remote": false,
+        "src": "http://placehold.it/720x480?text=/v1/unsecured/media/A111111111111/201609/1142/A111111111111_5133213060001_VV-1818181818-vs.jpg?pubId=A111111111111&videoId=VV-1818181818",
+        "sources": [
+          {
+            "src": "http://placehold.it/720x480?text=/v1/unsecured/media/A111111111111/201609/1142/A111111111111_5133213060001_VV-1818181818-vs.jpg?pubId=A111111111111&videoId=VV-1818181818",
+            "height": 360,
+            "width": 640
+          },
+          {
+            "src": "https://placehold.it/720x480?text=/v2/unsecured/media/A111111111111/201609/1142/A111111111111_5133213060001_VV-1818181818-vs.jpg?pubId=A111111111111&videoId=VV-1818181818",
+            "height": 360,
+            "width": 640
+          }
+        ]
+      }
+    },
+    "link": null,
+    "long_description": "Long Description For Video",
+    "name": "Name Of Video",
+    "original_filename": "fielname.mp4",
+    "published_at": "2016-09-20T11:40:16.092Z",
+    "reference_id": "5qMXMxMTE6udbs6Ydf6a5_vvelnPbcT3",
+    "schedule": null,
+    "sharing": null,
+    "state": "ACTIVE",
+    "tags": [
+      "clip",
+      "error list"
+    ],
+    "text_tracks": [],
+    "updated_at": "2016-09-22T14:20:31.754Z"
+  },
+  {
+    "id": "VV-1919191919",
+    "account_id": "A111111111111",
+    "ad_keys": null,
+    "complete": true,
+    "created_at": "2016-09-20T11:39:44.149Z",
+    "cue_points": [],
+    "custom_fields": {
+      "creationdate": "2016-02-18T00:12:09Z",
+      "metatitle": " ",
+      "host1": "Guy Smiley",
+      "segmentorder": " ",
+      "publishdate": " ",
+      "parentepisodeid": " "
+    },
+    "delivery_type": "static_origin",
+    "description": "Description for Video",
+    "digital_master_id": "5133215056001",
+    "duration": 49248,
+    "economics": "AD_SUPPORTED",
+    "folder_id": null,
+    "geo": null,
+    "has_digital_master": true,
+    "images": {
+      "thumbnail": {
+        "asset_id": "5133212724001",
+        "remote": false,
+        "src": "http://placehold.it/720x480?text=/v1/unsecured/media/A111111111111/201609/266/A111111111111_5133212724001_VV-1919191919-th.jpg?pubId=A111111111111&videoId=VV-1919191919",
+        "sources": [
+          {
+            "src": "http://placehold.it/720x480?text=/v1/unsecured/media/A111111111111/201609/266/A111111111111_5133212724001_VV-1919191919-th.jpg?pubId=A111111111111&videoId=VV-1919191919",
+            "height": 90,
+            "width": 160
+          },
+          {
+            "src": "https://placehold.it/720x480?text=/v2/unsecured/media/A111111111111/201609/266/A111111111111_5133212724001_VV-1919191919-th.jpg?pubId=A111111111111&videoId=VV-1919191919",
+            "height": 90,
+            "width": 160
+          }
+        ]
+      },
+      "poster": {
+        "asset_id": "5133212631001",
+        "remote": false,
+        "src": "http://placehold.it/720x480?text=/v1/unsecured/media/A111111111111/201609/266/A111111111111_5133212631001_VV-1919191919-vs.jpg?pubId=A111111111111&videoId=VV-1919191919",
+        "sources": [
+          {
+            "src": "http://placehold.it/720x480?text=/v1/unsecured/media/A111111111111/201609/266/A111111111111_5133212631001_VV-1919191919-vs.jpg?pubId=A111111111111&videoId=VV-1919191919",
+            "height": 360,
+            "width": 640
+          },
+          {
+            "src": "https://placehold.it/720x480?text=/v2/unsecured/media/A111111111111/201609/266/A111111111111_5133212631001_VV-1919191919-vs.jpg?pubId=A111111111111&videoId=VV-1919191919",
+            "height": 360,
+            "width": 640
+          }
+        ]
+      }
+    },
+    "link": null,
+    "long_description": "Long Description For Video",
+    "name": "Name Of Video",
+    "original_filename": "fielname.mp4",
+    "published_at": "2016-09-20T11:39:44.149Z",
+    "reference_id": "10ZHcxMTE6LVz0vyBW5oPZVtcdVPptqX",
+    "schedule": null,
+    "sharing": null,
+    "state": "ACTIVE",
+    "tags": [
+      "clip",
+      "shareable"
+    ],
+    "text_tracks": [],
+    "updated_at": "2016-09-22T14:19:26.926Z"
+  }
+]
