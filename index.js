@@ -66,7 +66,7 @@ exports.createPlaylistHandler = (bus, getChannel, client, transform) => {
 	return args => {
 		const spec = args.spec;
 		const playlist = spec.playlist || {};
-		const playlistId = playlist.uri;
+		const playlistId = playlist.id;
 		const channelId = spec.channel;
 
 		if (!playlistId || typeof playlistId !== 'string') {
