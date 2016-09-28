@@ -106,18 +106,18 @@ const client = brightcoveProvider.createClient({
 ### Client Methods
 All methods return a Promise.
 
-- `client.getAccessToken()`
-- `client.getPlaylistCount()`
-- `client.getPlaylists()`
-- `client.getPlaylist({playlistId})`
+- `client.createPolicyKey({})`
+- `client.getAccessToken({})`
+- `client.getPlaylistCount({})`
+- `client.getPlaylists({})`
+- `client.getPlaylist({})`
 - `client.getVideosByPlaylist({playlistId})`
 - `client.getVideoCountByPlaylist({playlistId})`
-- `client.getVideoCount()`
-- `client.getVideos()`
+- `client.getVideoCount({})`
+- `client.getVideos({})`
 - `client.getVideo({videoId})`
-- `client.getVideoSources({videoId})`
 
-See `lib/client.js` for more documentation.
+See `lib/client.js` for more documentation and options.
 
 ### Query Strings
 
