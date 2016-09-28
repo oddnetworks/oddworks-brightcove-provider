@@ -89,7 +89,7 @@ test.beforeEach(() => {
 		return Promise.resolve({type: 'videoSpec', resource: `res-brightcove-video-${spec.video.id}`});
 	});
 
-	// create provider with initial credentials that will be overridden
+	// create client with initial credentials that will be overridden
 	const client = provider.createClient({
 		clientId: 'foo',
 		clientSecret: 'foo',
