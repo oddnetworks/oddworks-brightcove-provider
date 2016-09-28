@@ -26,6 +26,7 @@ const options = {
     clientId: process.env.BRIGHTCOVE_CLIENT_ID,
     clientSecret: process.env.BRIGHTCOVE_CLIENT_SECRET,
     accountId: process.env.BRIGHTCOVE_ACCOUNT_ID
+    policyKey: process.env.BRIGHTCOVE_POLICY_ID
 };
 
 brightcoveProvider.initialize(options).then(provider => {
@@ -97,7 +98,8 @@ const client = brightcoveProvider.createClient({
     bus: bus,
     clientId: process.env.BRIGHTCOVE_CLIENT_ID,
     clientSecret: process.env.BRIGHTCOVE_CLIENT_SECRET,
-    accountId: process.env.BRIGHTCOVE_ACCOUNT_ID
+    accountId: process.env.BRIGHTCOVE_ACCOUNT_ID,
+    policyKey: process.env.BRIGHTCOVE_POLICY_KEY
 });
 ```
 
@@ -147,8 +149,9 @@ You can interact with the Brightcove client using the CLI tool. To get started, 
 To authenticate the API you'll need to export the following environment variables:
 
 - `BRIGHTCOVE_CLIENT_ID` The Brightcove API client ID
-- `BRIGHTCOVE_CLIENT_SECRET` The Brightcove API client secret (see: [docs.brightcove.com/en/video-cloud/oauth-api/reference/versions/v4](https://docs.brightcove.com/en/video-cloud/oauth-api/reference/versions/v4))
+- `BRIGHTCOVE_CLIENT_SECRET` The Brightcove API client secret (see: [docs.brightcove.com/en/video-cloud/oauth-api/reference/versions/v4](https://docs.brightcove.com/en/video-cloud/oauth-api/reference/versions/v4)). If you are going to use `createPolicyKey`, you will need to ensure that the client credentials have permissions for `video-cloud/player/all` operations.
 - `BRIGHTCOVE_ACCOUNT_ID` The Brightcove account ID. Required for all methods aside from `getAccessToken`
+- `BRIGHTCOVE_POLICY_KEY` The Brightcove policy key. Required for the `getVideo` method, which hits the Playback API.
 
 To get help with commands:
 
