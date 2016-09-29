@@ -2,6 +2,8 @@
 
 A Brightcove provider plugin for the Oddworks content server.
 
+[![Build Status](https://travis-ci.org/oddnetworks/oddworks-brightcove-provider.svg?branch=master)](https://travis-ci.org/oddnetworks/oddworks-brightcove-provider)
+
 Installation
 ------------
 Install the npm package as a Node.js library:
