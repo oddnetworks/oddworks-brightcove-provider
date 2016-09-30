@@ -6,7 +6,6 @@ const Client = require('./lib/client');
 
 const REQUEST_METHODS = Object.create(null);
 REQUEST_METHODS.makeRequest = '{}';
-REQUEST_METHODS.createPolicyKey = '{}';
 REQUEST_METHODS.getAccessToken = '{}';
 REQUEST_METHODS.getPlaylistCount = '{"query": "OBJECT"}';
 REQUEST_METHODS.getPlaylists = '{"query": "OBJECT"}';
@@ -16,6 +15,7 @@ REQUEST_METHODS.getVideoCountByPlaylist = '{"playlistId": "STRING"}';
 REQUEST_METHODS.getVideoCount = '{"query": "OBJECT"}';
 REQUEST_METHODS.getVideos = '{"query": "OBJECT"}';
 REQUEST_METHODS.getVideo = '{"videoId": "STRING"}';
+REQUEST_METHODS.getVideoSources = '{"videoId": "STRING"}';
 
 const listCommand = () => {
 	console.log('Request methods:');
@@ -34,7 +34,6 @@ const requestCommand = args => {
 	const clientId = args.clientId;
 	const clientSecret = args.clientSecret;
 	const accountId = args.accountId;
-	const policyKey = args.policyKey;
 	const method = args.method;
 
 	if (!clientId) {
@@ -52,11 +51,6 @@ const requestCommand = args => {
 		return Promise.resolve(null);
 	}
 
-	if (!policyKey) {
-		console.error('An policyKey is required (--policyKey)');
-		return Promise.resolve(null);
-	}
-
 	let params;
 	try {
 		params = JSON.parse(args.args);
@@ -66,7 +60,7 @@ const requestCommand = args => {
 		return Promise.resolve(null);
 	}
 
-	const client = new Client({clientId, clientSecret, accountId, policyKey});
+	const client = new Client({clientId, clientSecret, accountId});
 
 	return client[method](params).then(res => {
 		console.log(JSON.stringify(res, null, 2));
@@ -96,9 +90,6 @@ exports.main = () => {
 						},
 						accountId: {
 							describe: 'Defaults to env var BRIGHTCOVE_ACCOUNT_ID'
-						},
-						policyKey: {
-							describe: 'Defaults to env var BRIGHTCOVE_POLICY_KEY'
 						}
 					})
 					.command('list', 'List vimeo client methods')
@@ -115,7 +106,6 @@ exports.main = () => {
 				clientId: argv.clientId || process.env.BRIGHTCOVE_CLIENT_ID,
 				clientSecret: argv.clientSecret || process.env.BRIGHTCOVE_CLIENT_SECRET,
 				accountId: argv.accountId || process.env.BRIGHTCOVE_ACCOUNT_ID,
-				policyKey: argv.policyKey || process.env.BRIGHTCOVE_POLICY_KEY,
 				method: argv.method,
 				args: argv.args
 			});

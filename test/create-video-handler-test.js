@@ -7,12 +7,13 @@ const Promise = require('bluebird');
 const provider = require('../');
 const videoTransform = require('../lib/default-video-transform');
 const videoResponse = require('./fixtures/get-video-response');
+const videoSourcesResponse = require('./fixtures/get-video-sources-response');
+const accessTokenResponse = require('./fixtures/get-access-token-response');
 const helpers = require('./helpers');
 
 const clientId = 'fake-client-id';
 const clientSecret = 'fake-client-secret';
 const accountId = 'fake-account-id';
-const policyKey = 'fake-policy-key';
 
 const type = 'videoSpec';
 
@@ -25,35 +26,56 @@ const getChannel = () => {
 			brightcove: {
 				clientId,
 				clientSecret,
-				accountId,
-				policyKey
+				accountId
 			}
 		}
 	});
 };
-
-const bcovPolicyAuthHeader = `BCOV-Policy ${policyKey}`;
+const basicAuth = new Buffer(`${clientId}:${clientSecret}`);
+const oauthAuthHeader = `Basic ${basicAuth.toString('base64')}`;
+const cmsAuthHeader = `Bearer ${accessTokenResponse.access_token}`;
 
 let bus;
 let videoHandler = null;
 
 test.before(() => {
-	// mock playback API calls
+	// mock playback API callsnock(
 	nock(
-		'https://edge.api.brightcove.com/playback/v1',
+		'https://oauth.brightcove.com/v3',
 		{
 			reqheaders: {
-				authorization: bcovPolicyAuthHeader
+				authorization: oauthAuthHeader
 			}
 		})
-		.get(`/accounts/${accountId}/videos/V111111111111`)
+		.post('/access_token?grant_type=client_credentials')
+		.times(3) // this gets called before most client.get* functions
+		.reply(200, accessTokenResponse);
+
+	nock(
+		'https://cms.api.brightcove.com/v1',
+		{
+			reqheaders: {
+				authorization: cmsAuthHeader
+			}
+		})
+		.get(`/accounts/${accountId}/videos/${videoResponse.id}`)
 		.reply(200, videoResponse);
 
 	nock(
-		'https://edge.api.brightcove.com/playback/v1',
+		'https://cms.api.brightcove.com/v1',
 		{
 			reqheaders: {
-				authorization: bcovPolicyAuthHeader
+				authorization: cmsAuthHeader
+			}
+		})
+		.get(`/accounts/${accountId}/videos/${videoResponse.id}/sources`)
+		.reply(200, videoSourcesResponse);
+
+	nock(
+		'https://cms.api.brightcove.com/v1',
+		{
+			reqheaders: {
+				authorization: cmsAuthHeader
 			}
 		})
 		.get(`/accounts/${accountId}/videos/12345`)
@@ -67,8 +89,7 @@ test.beforeEach(() => {
 	const client = provider.createClient({
 		clientId: 'foo',
 		clientSecret: 'foo',
-		accountId: 'foo',
-		policyKey: 'foo'
+		accountId: 'foo'
 	});
 
 	videoHandler = provider.createVideoHandler(bus, getChannel, client, videoTransform);
@@ -127,22 +148,24 @@ test('when Brightcove video found', t => {
 
 			t.is(res.id, `res-brightcove-video-${videoResponse.id}`);
 			t.is(res.title, videoResponse.name);
-			t.is(res.description, videoResponse.description);
+			t.is(res.description, videoResponse.long_description);
 
+			const poster = videoResponse.images.poster.sources[1];
+			const thumbnail = videoResponse.images.thumbnail.sources[1];
 			t.is(res.images.length, 2);
-			t.is(res.images[0].url, videoResponse.poster_sources[1].src);
-			t.is(res.images[1].url, videoResponse.thumbnail_sources[1].src);
-			t.is(res.images[1].height, 0);
-			t.is(res.images[1].width, 0);
-			t.is(res.images[1].label, 'thumbnail');
+			t.is(res.images[0].url, poster.src);
+			t.is(res.images[1].url, thumbnail.src);
+			t.is(res.images[1].height, thumbnail.height);
+			t.is(res.images[1].width, thumbnail.width);
+			t.is(res.images[1].label, `thumbnail-${thumbnail.width}x${thumbnail.height}`);
 
 			t.is(res.sources.length, 4);
 
 			// sources (first MP4 with https)
-			const responseSourceMP4 = videoResponse.sources.filter(source => {
+			const responseSourceMP4 = videoSourcesResponse.filter(source => {
 				return typeof source.src !== 'undefined' && source.src.match(/^https/);
 			}).shift();
-			const responseSourceHLS = videoResponse.sources.filter(source => {
+			const responseSourceHLS = videoSourcesResponse.filter(source => {
 				return (typeof source.src !== 'undefined' && typeof source.type !== 'undefined') && source.src.match(/^https/) && source.type.match(/^application\/x-mpegURL/);
 			}).pop();
 
@@ -152,7 +175,7 @@ test('when Brightcove video found', t => {
 			t.is(source1.width, responseSourceMP4.width);
 			t.is(source1.height, responseSourceMP4.height);
 			t.is(source1.container, responseSourceMP4.container);
-			t.is(source1.maxBitrate, responseSourceMP4.avg_bitrate);
+			t.is(source1.maxBitrate, responseSourceMP4.encoding_rate);
 			// sources (HLS with https)
 			t.is(source4.url, responseSourceHLS.src);
 			t.is(source4.label, 'hls');
