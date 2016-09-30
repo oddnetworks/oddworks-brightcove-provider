@@ -2,164 +2,66 @@
   "id": "V111111111111",
   "account_id": "A111111111111",
   "ad_keys": null,
-  "created_at": "2016-09-20T11:16:47.533Z",
+  "complete": true,
+  "created_at": "2016-07-15T13:55:51.101Z",
   "cue_points": [],
-  "custom_fields": {
-    "creationdate": "2016-03-17T22:54:16Z",
-    "host1": "Guy Smiley",
-    "metatitle": " ",
-    "parentepisodeid": " ",
-    "publishdate": " ",
-    "segmentorder": " "
-  },
-  "description": "description of video",
-  "duration": 2363373,
+  "custom_fields": {},
+  "delivery_type": "static_origin",
+  "description": null,
+  "digital_master_id": "5037062135001",
+  "duration": 31593,
   "economics": "AD_SUPPORTED",
+  "folder_id": null,
+  "geo": null,
+  "has_digital_master": true,
+  "images": {
+    "thumbnail": {
+      "asset_id": "AST1111111111",
+      "remote": false,
+      "src": "http://placehold.it/720x480?text=/e1/pd/A111111111111/A111111111111_AST1111111111_V111111111111-th.jpg?pubId=A111111111111&videoId=V111111111111",
+      "sources": [
+        {
+          "src": "http://placehold.it/720x480?text=/e1/pd/A111111111111/A111111111111_AST1111111111_V111111111111-th.jpg?pubId=A111111111111&videoId=V111111111111",
+          "height": 90,
+          "width": 160
+        },
+        {
+          "src": "https://placehold.it/720x480?text=/e1/pd/A111111111111/A111111111111_AST1111111111_V111111111111-th.jpg?pubId=A111111111111&videoId=V111111111111",
+          "height": 90,
+          "width": 160
+        }
+      ]
+    },
+    "poster": {
+      "asset_id": "AST2222222222",
+      "remote": false,
+      "src": "http://placehold.it/720x480?text=/e1/pd/A111111111111/A111111111111_AST2222222222_V111111111111-vs.jpg?pubId=A111111111111&videoId=V111111111111",
+      "sources": [
+        {
+          "src": "http://placehold.it/720x480?text=/e1/pd/A111111111111/A111111111111_AST2222222222_V111111111111-vs.jpg?pubId=A111111111111&videoId=V111111111111",
+          "height": 360,
+          "width": 640
+        },
+        {
+          "src": "https://placehold.it/720x480?text=/e1/pd/A111111111111/A111111111111_AST2222222222_V111111111111-vs.jpg?pubId=A111111111111&videoId=V111111111111",
+          "height": 360,
+          "width": 640
+        }
+      ]
+    }
+  },
   "link": null,
-  "long_description": "description of video",
-  "name": "TV Episode 9",
-  "poster": "http://placehold.it/720x480?text=/v1/unsecured/media/A111111111111/201609/990/A111111111111_5133183591001_5133172277001-vs.jpg?pubId=A111111111111&videoId=5133172277001",
-  "poster_sources": [
-    {
-      "src": "http://placehold.it/720x480?text=/v1/unsecured/media/A111111111111/201609/990/A111111111111_5133183591001_5133172277001-vs.jpg?pubId=A111111111111&videoId=5133172277001"
-    },
-    {
-      "src": "https://placehold.it/720x480?text=/v2/unsecured/media/A111111111111/201609/990/A111111111111_5133183591001_5133172277001-vs.jpg?pubId=A111111111111&videoId=5133172277001"
-    }
-  ],
-  "published_at": "2016-09-20T11:16:47.533Z",
-  "reference_id": "40b2U0MjE6sLPVFMhNdTnnmVNDkWhTis",
-  "sources": [
-    {
-      "app_name": "rtmp://brightcove.fcod.llnwd.net/a500/v1/uds/rtmp",
-      "asset_id": "5133199070001",
-      "avg_bitrate": 512000,
-      "codec": "H264",
-      "container": "MP4",
-      "duration": 2363373,
-      "height": 270,
-      "size": 152572117,
-      "stream_name": "mp4:A111111111111/201609/990/A111111111111_5133199070001_5133172277001.mp4&1475010000000&02d23362ffd76a4eb513435791acf00f",
-      "width": 480
-    },
-    {
-      "asset_id": "5133199070001",
-      "avg_bitrate": 512000,
-      "codec": "H264",
-      "container": "MP4",
-      "duration": 2363373,
-      "height": 270,
-      "size": 152572117,
-      "src": "http://placehold.it/720x480?text=/v1/uds/pd/A111111111111/201609/990/A111111111111_5133199070001_5133172277001.mp4?pubId=A111111111111&videoId=5133172277001",
-      "width": 480
-    },
-    {
-      "asset_id": "5133199070001",
-      "avg_bitrate": 512000,
-      "codec": "H264",
-      "container": "MP4",
-      "duration": 2363373,
-      "height": 270,
-      "size": 152572117,
-      "src": "https://placehold.it/720x480?text=/v1/uds/pd/A111111111111/201609/990/A111111111111_5133199070001_5133172277001.mp4?pubId=A111111111111&videoId=5133172277001",
-      "width": 480
-    },
-    {
-      "app_name": "rtmp://brightcove.fcod.llnwd.net/a500/v1/uds/rtmp",
-      "asset_id": "5133201272001",
-      "avg_bitrate": 1824000,
-      "codec": "H264",
-      "container": "MP4",
-      "duration": 2363373,
-      "height": 540,
-      "size": 540610791,
-      "stream_name": "mp4:A111111111111/201609/990/A111111111111_5133201272001_5133172277001.mp4&1475010000000&02d23362ffd76a4eb513435791acf00f",
-      "width": 960
-    },
-    {
-      "asset_id": "5133201272001",
-      "avg_bitrate": 1824000,
-      "codec": "H264",
-      "container": "MP4",
-      "duration": 2363373,
-      "height": 540,
-      "size": 540610791,
-      "src": "http://placehold.it/720x480?text=/v1/uds/pd/A111111111111/201609/990/A111111111111_5133201272001_5133172277001.mp4?pubId=A111111111111&videoId=5133172277001",
-      "width": 960
-    },
-    {
-      "asset_id": "5133201272001",
-      "avg_bitrate": 1824000,
-      "codec": "H264",
-      "container": "MP4",
-      "duration": 2363373,
-      "height": 540,
-      "size": 540610791,
-      "src": "https://placehold.it/720x480?text=/v1/uds/pd/A111111111111/201609/990/A111111111111_5133201272001_5133172277001.mp4?pubId=A111111111111&videoId=5133172277001",
-      "width": 960
-    },
-    {
-      "app_name": "rtmp://brightcove.fcod.llnwd.net/a500/v1/uds/rtmp",
-      "asset_id": "5133203098001",
-      "avg_bitrate": 994000,
-      "codec": "H264",
-      "container": "MP4",
-      "duration": 2363373,
-      "height": 360,
-      "size": 294978080,
-      "stream_name": "mp4:A111111111111/201609/990/A111111111111_5133203098001_5133172277001.mp4&1475010000000&02d23362ffd76a4eb513435791acf00f",
-      "width": 640
-    },
-    {
-      "asset_id": "5133203098001",
-      "avg_bitrate": 994000,
-      "codec": "H264",
-      "container": "MP4",
-      "duration": 2363373,
-      "height": 360,
-      "size": 294978080,
-      "src": "http://placehold.it/720x480?text=/v1/uds/pd/A111111111111/201609/990/A111111111111_5133203098001_5133172277001.mp4?pubId=A111111111111&videoId=5133172277001",
-      "width": 640
-    },
-    {
-      "asset_id": "5133203098001",
-      "avg_bitrate": 994000,
-      "codec": "H264",
-      "container": "MP4",
-      "duration": 2363373,
-      "height": 360,
-      "size": 294978080,
-      "src": "https://placehold.it/720x480?text=/v1/uds/pd/A111111111111/201609/990/A111111111111_5133203098001_5133172277001.mp4?pubId=A111111111111&videoId=5133172277001",
-      "width": 640
-    },
-    {
-      "codec": "H264",
-      "container": "M2TS",
-      "src": "http://placehold.it/720x480?text=.m3u8?videoId=5133172277001&pubId=A111111111111",
-      "type": "application/x-mpegURL"
-    },
-    {
-      "codec": "H264",
-      "container": "M2TS",
-      "src": "https://placehold.it/720x480?text=.m3u8?videoId=5133172277001&pubId=A111111111111&secure=true",
-      "type": "application/x-mpegURL"
-    }
-  ],
+  "long_description": "Video with only long description",
+  "name": "Video Name",
+  "original_filename": "orig-video-name.mov",
+  "published_at": "2016-07-15T13:55:51.101Z",
+  "reference_id": null,
+  "schedule": null,
+  "sharing": null,
+  "state": "ACTIVE",
   "tags": [
-    "over",
-    "shareable",
-    "episode",
-    "content"
+    "sample"
   ],
   "text_tracks": [],
-  "thumbnail": "http://placehold.it/720x480?text=/v1/unsecured/media/A111111111111/201609/990/A111111111111_5133184764001_5133172277001-th.jpg?pubId=A111111111111&videoId=5133172277001",
-  "thumbnail_sources": [
-    {
-      "src": "http://placehold.it/720x480?text=/v1/unsecured/media/A111111111111/201609/990/A111111111111_5133184764001_5133172277001-th.jpg?pubId=A111111111111&videoId=5133172277001"
-    },
-    {
-      "src": "https://placehold.it/720x480?text=/v2/unsecured/media/A111111111111/201609/990/A111111111111_5133184764001_5133172277001-th.jpg?pubId=A111111111111&videoId=5133172277001"
-    }
-  ],
-  "updated_at": "2016-09-20T11:38:00.126Z"
+  "updated_at": "2016-09-12T11:29:24.706Z"
 }

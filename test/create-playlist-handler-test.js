@@ -6,7 +6,7 @@ const nock = require('nock');
 
 const provider = require('../');
 const collectionTransform = require('../lib/default-collection-transform');
-const accessTokenResposne = require('./fixtures/get-access-token-response');
+const accessTokenResponse = require('./fixtures/get-access-token-response');
 const playlistResponse = require('./fixtures/get-playlist-response');
 const videosByPlaylistResponse = require('./fixtures/get-videos-by-playlist-response');
 const helpers = require('./helpers');
@@ -14,7 +14,6 @@ const helpers = require('./helpers');
 const clientId = 'fake-client-id';
 const clientSecret = 'fake-client-secret';
 const accountId = 'fake-account-id';
-const policyKey = 'fake-policy-key';
 
 // mock channel fetching function
 const channelId = 'fake-channel';
@@ -25,15 +24,14 @@ const getChannel = () => {
 			brightcove: {
 				clientId,
 				clientSecret,
-				accountId,
-				policyKey
+				accountId
 			}
 		}
 	});
 };
 const basicAuth = new Buffer(`${clientId}:${clientSecret}`);
 const oauthAuthHeader = `Basic ${basicAuth.toString('base64')}`;
-const cmsAuthHeader = `Bearer ${accessTokenResposne.access_token}`;
+const cmsAuthHeader = `Bearer ${accessTokenResponse.access_token}`;
 
 let bus;
 let playlistHandler = null;
@@ -49,7 +47,7 @@ test.before(() => {
 		})
 		.post('/access_token?grant_type=client_credentials')
 		.times(3) // this gets called before most client.get* functions
-		.reply(200, accessTokenResposne);
+		.reply(200, accessTokenResponse);
 	nock(
 		'https://cms.api.brightcove.com/v1',
 		{
@@ -93,8 +91,7 @@ test.beforeEach(() => {
 	const client = provider.createClient({
 		clientId: 'foo',
 		clientSecret: 'foo',
-		accountId: 'foo',
-		policyKey: 'foo'
+		accountId: 'foo'
 	});
 
 	// create handler

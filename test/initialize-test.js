@@ -11,7 +11,6 @@ const helpers = require('./helpers');
 const clientId = 'fake-client-id';
 const clientSecret = 'fake-client-secret';
 const accountId = 'fake-account-id';
-const policyKey = 'fake-policy-key';
 
 let bus;
 let result = null;
@@ -34,8 +33,7 @@ test.before(() => {
 		bus,
 		clientId,
 		clientSecret,
-		accountId,
-		policyKey
+		accountId
 	};
 
 	return provider.initialize(options).then(res => {
@@ -45,13 +43,12 @@ test.before(() => {
 });
 
 test('creates Brightcove client', t => {
-	t.plan(5);
+	t.plan(4);
 
 	t.truthy(result.client);
 	t.is(result.client.clientId, clientId);
 	t.is(result.client.clientSecret, clientSecret);
 	t.is(result.client.accountId, accountId);
-	t.is(result.client.policyKey, policyKey);
 });
 
 test('calls createVideoHandler', t => {
