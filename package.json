@@ -1,6 +1,6 @@
 {
   "name": "oddworks-brightcove-provider",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "An Oddworks provider plugin for Brightcove APIs",
   "main": "index.js",
   "dependencies": {
