@@ -35,7 +35,7 @@ const requestCommand = args => {
 	const clientSecret = args.clientSecret;
 	const accountId = args.accountId;
 	const method = args.method;
-	const concurrentRequestLimit = args.concurrentRequestLimit
+	const concurrentRequestLimit = args.concurrentRequestLimit;
 
 	if (!clientId) {
 		console.error('A clientId is required (--clientId)');
