@@ -35,6 +35,7 @@ const requestCommand = args => {
 	const clientSecret = args.clientSecret;
 	const accountId = args.accountId;
 	const method = args.method;
+	const concurrentRequestLimit = args.concurrentRequestLimit
 
 	if (!clientId) {
 		console.error('A clientId is required (--clientId)');
@@ -60,7 +61,7 @@ const requestCommand = args => {
 		return Promise.resolve(null);
 	}
 
-	const client = new Client({clientId, clientSecret, accountId});
+	const client = new Client({clientId, clientSecret, accountId, concurrentRequestLimit});
 
 	const clientMethod = client[method];
 
@@ -97,6 +98,11 @@ exports.main = () => {
 						},
 						accountId: {
 							describe: 'Defaults to env var BRIGHTCOVE_ACCOUNT_ID'
+						},
+						concurrentRequestLimit: {
+							alias: 'c',
+							default: 20,
+							describe: 'Limits the client to specified concurrent requests'
 						}
 					})
 					.command('list', 'List vimeo client methods')
@@ -113,6 +119,7 @@ exports.main = () => {
 				clientId: argv.clientId || process.env.BRIGHTCOVE_CLIENT_ID,
 				clientSecret: argv.clientSecret || process.env.BRIGHTCOVE_CLIENT_SECRET,
 				accountId: argv.accountId || process.env.BRIGHTCOVE_ACCOUNT_ID,
+				concurrentRequestLimit: argv.concurrentRequestLimit,
 				method: argv.method,
 				args: argv.args
 			});
