@@ -1,6 +1,6 @@
 {
   "name": "oddworks-brightcove-provider",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "An Oddworks provider plugin for Brightcove APIs",
   "main": "index.js",
   "dependencies": {
@@ -40,5 +40,11 @@
   "bugs": {
     "url": "https://github.com/oddnetworks/oddworks-brightcove-provider/issues"
   },
-  "homepage": "https://github.com/oddnetworks/oddworks-brightcove-provider#readme"
+  "homepage": "https://github.com/oddnetworks/oddworks-brightcove-provider#readme",
+  "xo": {
+    "rules": {
+      "object-property-newline": 0,
+      "no-use-extend-native/no-use-extend-native": 0
+    }
+  }
 }
