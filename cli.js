@@ -62,7 +62,14 @@ const requestCommand = args => {
 
 	const client = new Client({clientId, clientSecret, accountId});
 
-	return client[method](params).then(res => {
+	const clientMethod = client[method];
+
+	if (!clientMethod) {
+		console.error(`--method ${method} not found`);
+		return Promise.resolve(null);
+	}
+
+	return clientMethod(params).then(res => {
 		console.log(JSON.stringify(res, null, 2));
 		return null;
 	});
