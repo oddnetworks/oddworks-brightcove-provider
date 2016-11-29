@@ -144,5 +144,11 @@ test('when Brightcove playlist found', t => {
 				'images',
 				'relationships'
 			]);
+
+			// order by published_at desc (newest to oldest)
+			t.is(res.relationships.entities.data[0].id, 'res-brightcove-video-V222222222222');
+			t.is(res.relationships.entities.data[1].id, 'res-brightcove-video-V444444444444');
+			t.is(res.relationships.entities.data[2].id, 'res-brightcove-video-V111111111111');
+			t.is(res.relationships.entities.data[3].id, 'res-brightcove-video-V333333333333');
 		});
 });
