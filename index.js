@@ -1,6 +1,7 @@
 'use strict';
 
 const Promise = require('bluebird');
+const debug = require('debug')('oddworks:provider:brightcove');
 const Client = require('./lib/client');
 const defaultVideoTransform = require('./lib/default-video-transform');
 const defaultCollectionTransform = require('./lib/default-collection-transform');
@@ -20,6 +21,7 @@ const DEFAULTS = {
 // options.collectionTransform
 // options.videoTransform
 exports.initialize = options => {
+	debug('initialize');
 	options = Object.assign({}, DEFAULTS, options || {});
 
 	const bus = options.bus;
@@ -57,6 +59,7 @@ exports.initialize = options => {
 };
 
 exports.createPlaylistHandler = (bus, getChannel, client, transform) => {
+	debug('createPlaylistHandler');
 	const getCollection = fetchBrightcovePlaylist(bus, client, transform);
 
 	// Called from Oddworks core via bus.query
@@ -83,6 +86,7 @@ exports.createPlaylistHandler = (bus, getChannel, client, transform) => {
 };
 
 exports.createVideoHandler = (bus, getChannel, client, transform) => {
+	debug('createVideoHandler');
 	const getVideo = fetchBrightcoveVideo(bus, client, transform);
 
 	// Called from Oddworks core via bus.query
@@ -111,6 +115,7 @@ exports.createVideoHandler = (bus, getChannel, client, transform) => {
 // options.accountId *required
 // options.bus *optional
 exports.createClient = options => {
+	debug('createClient');
 	options = Object.assign({}, DEFAULTS, options || {});
 
 	const bus = options.bus;

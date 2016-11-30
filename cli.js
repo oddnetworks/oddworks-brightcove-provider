@@ -10,11 +10,11 @@ REQUEST_METHODS.getAccessToken = '{}';
 REQUEST_METHODS.getPlaylistCount = '{"query": "OBJECT"}';
 REQUEST_METHODS.getPlaylists = '{"query": "OBJECT"}';
 REQUEST_METHODS.getPlaylist = '{"playlistId": "STRING"}';
-REQUEST_METHODS.getVideosByPlaylist = '{"playlistId": "STRING"}';
+REQUEST_METHODS.getVideosByPlaylist = '{"playlistId": "STRING", "skipScheduleCheck": "BOOLEAN"}';
 REQUEST_METHODS.getVideoCountByPlaylist = '{"playlistId": "STRING"}';
 REQUEST_METHODS.getVideoCount = '{"query": "OBJECT"}';
-REQUEST_METHODS.getVideos = '{"query": "OBJECT"}';
-REQUEST_METHODS.getVideo = '{"videoId": "STRING"}';
+REQUEST_METHODS.getVideos = '{"query": "OBJECT", "skipScheduleCheck": "BOOLEAN"}';
+REQUEST_METHODS.getVideo = '{"videoId": "STRING", "skipScheduleCheck": "BOOLEAN"}';
 REQUEST_METHODS.getVideoSources = '{"videoId": "STRING"}';
 
 const listCommand = () => {
