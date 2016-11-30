@@ -55,9 +55,12 @@
     "long_description": null,
     "name": "Video Name",
     "original_filename": "fileforvideo.mp4",
-    "published_at": "2016-07-15T13:55:51.101Z",
+    "published_at": "2016-01-01T01:00:00.000Z",
     "reference_id": null,
-    "schedule": null,
+    "schedule": {
+      "starts_at": "2016-02-01T01:00:00.000Z",
+      "ends_at": null
+    },
     "sharing": null,
     "state": "ACTIVE",
     "tags": [
@@ -122,7 +125,7 @@
     "long_description": "Video Long Description",
     "name": "Video Name",
     "original_filename": "fileforvideo.mp4",
-    "published_at": "2016-09-12T17:41:15.003Z",
+    "published_at": "2016-01-01T02:00:00.000Z",
     "reference_id": null,
     "schedule": null,
     "sharing": null,
@@ -187,7 +190,7 @@
     "long_description": "Video Long Description",
     "name": "Video Name",
     "original_filename": "fileforvideo.mp4",
-    "published_at": "2016-06-27T19:30:47.025Z",
+    "published_at": "2016-01-01T03:00:00.000Z",
     "reference_id": null,
     "schedule": null,
     "sharing": null,
@@ -267,11 +270,11 @@
     "long_description": "Video Long Description",
     "name": "Video Name",
     "original_filename": "fileforvideo.mp4",
-    "published_at": "2016-07-15T13:55:54.992Z",
+    "published_at": "2016-01-01T04:00:00.000Z",
     "reference_id": "LevinEp1",
     "schedule": {
       "ends_at": null,
-      "starts_at": "2016-07-15T19:02:07.000Z"
+      "starts_at": "2100-02-01T04:00:00.000Z"
     },
     "sharing": null,
     "state": "ACTIVE",
