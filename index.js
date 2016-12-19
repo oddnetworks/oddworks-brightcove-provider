@@ -67,8 +67,8 @@ exports.createPlaylistHandler = (bus, getChannel, client, transform) => {
 	//	args.spec.playlist.id
 	return args => {
 		const spec = args.spec;
-		const playlist = spec.playlist || {};
-		const playlistId = playlist.id;
+		const collection = spec.playlist || {};
+		const playlistId = collection.id;
 		const channelId = spec.channel;
 
 		if (!playlistId || typeof playlistId !== 'string') {
@@ -76,8 +76,6 @@ exports.createPlaylistHandler = (bus, getChannel, client, transform) => {
 				'brightcove-playlist-provider spec.playlist.id String is required'
 			);
 		}
-
-		const collection = args.object;
 
 		return getChannel(channelId).then(channel => {
 			return getCollection({spec, channel, collection, playlistId});
