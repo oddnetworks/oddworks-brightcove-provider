@@ -91,13 +91,16 @@ exports.main = () => {
 							describe: 'Arguments object as a JSON string'
 						},
 						clientId: {
-							describe: 'Defaults to env var BRIGHTCOVE_CLIENT_ID'
+							describe: 'Defaults to env var BRIGHTCOVE_CLIENT_ID',
+							type: 'string'
 						},
 						clientSecret: {
-							describe: 'Defaults to env var BRIGHTCOVE_CLIENT_SECRET'
+							describe: 'Defaults to env var BRIGHTCOVE_CLIENT_SECRET',
+							type: 'string'
 						},
 						accountId: {
-							describe: 'Defaults to env var BRIGHTCOVE_ACCOUNT_ID'
+							describe: 'Defaults to env var BRIGHTCOVE_ACCOUNT_ID',
+							type: 'string'
 						},
 						concurrentRequestLimit: {
 							alias: 'c',
