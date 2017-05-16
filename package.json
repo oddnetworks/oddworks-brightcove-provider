@@ -1,23 +1,22 @@
 {
   "name": "oddworks-brightcove-provider",
-  "version": "1.3.5",
+  "version": "1.3.6",
   "description": "An Oddworks provider plugin for Brightcove APIs",
   "main": "index.js",
   "dependencies": {
-    "bluebird": "^3.4.6",
-    "boom": "^4.0.0",
-    "debug": "^2.2.0",
-    "lodash": "^4.17.2",
-    "promise-task-queue": "^1.2.0",
-    "request": "^2.75.0",
-    "yargs": "^5.0.0"
+    "bluebird": "~3.4.6",
+    "debug": "~2.2.0",
+    "lodash": "~4.17.2",
+    "promise-task-queue": "~1.2.0",
+    "request": "~2.75.0",
+    "yargs": "~5.0.0"
   },
   "devDependencies": {
-    "ava": "^0.16.0",
-    "nock": "^8.0.0",
-    "oddcast": "^2.1.0",
-    "sinon": "^1.17.6",
-    "xo": "^0.16.0"
+    "ava": "~0.16.0",
+    "nock": "~8.0.0",
+    "oddcast": "~2.2.0",
+    "sinon": "~1.17.6",
+    "xo": "~0.16.0"
   },
   "scripts": {
     "test": "xo && ava"
