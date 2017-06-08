@@ -11,8 +11,10 @@ const helpers = require('./helpers');
 const clientId = 'fake-client-id';
 const clientSecret = 'fake-client-secret';
 const accountId = 'fake-account-id';
+const concurrentRequestLimit = 13;
 
 let bus;
+let options;
 let result = null;
 
 let createVideoHandlerSpy;
@@ -29,11 +31,12 @@ test.before(() => {
 	createPlaylistHandlerSpy = sinon.stub(provider, 'createPlaylistHandler').returns(playlistHandler);
 	queryHandlerSpy = sinon.spy(bus, 'queryHandler');
 
-	const options = {
+	options = {
 		bus,
 		clientId,
 		clientSecret,
-		accountId
+		accountId,
+		concurrentRequestLimit
 	};
 
 	return provider.initialize(options).then(res => {
@@ -43,12 +46,13 @@ test.before(() => {
 });
 
 test('creates Brightcove client', t => {
-	t.plan(4);
+	t.plan(5);
 
 	t.truthy(result.client);
 	t.is(result.client.clientId, clientId);
 	t.is(result.client.clientSecret, clientSecret);
 	t.is(result.client.accountId, accountId);
+	t.is(result.client.concurrentRequestLimit, concurrentRequestLimit);
 });
 
 test('calls createVideoHandler', t => {
