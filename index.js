@@ -28,6 +28,7 @@ exports.initialize = options => {
 	const clientId = options.clientId;
 	const clientSecret = options.clientSecret;
 	const accountId = options.accountId;
+	const concurrentRequestLimit = options.concurrentRequestLimit;
 	const role = 'provider';
 	const cmd = 'get';
 
@@ -38,7 +39,7 @@ exports.initialize = options => {
 	const collectionTransform = options.collectionTransform;
 	const videoTransform = options.videoTransform;
 
-	const client = new Client({bus, clientId, clientSecret, accountId});
+	const client = new Client({bus, clientId, clientSecret, accountId, concurrentRequestLimit});
 
 	const getChannel = createChannelCache(bus);
 
@@ -120,6 +121,7 @@ exports.createClient = options => {
 	const clientId = options.clientId;
 	const clientSecret = options.clientSecret;
 	const accountId = options.accountId;
+	const concurrentRequestLimit = options.concurrentRequestLimit;
 
 	if (!clientId || typeof clientId !== 'string') {
 		throw new Error(
@@ -139,5 +141,5 @@ exports.createClient = options => {
 		);
 	}
 
-	return new Client({bus, clientId, clientSecret, accountId});
+	return new Client({bus, clientId, clientSecret, accountId, concurrentRequestLimit});
 };
