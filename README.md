@@ -2,7 +2,7 @@
 
 A Brightcove provider plugin for the Oddworks content server.
 
-[![Build Status](https://travis-ci.org/oddnetworks/oddworks-brightcove-provider.svg?branch=master)](https://travis-ci.org/oddnetworks/oddworks-brightcove-provider)
+[![pipeline status](https://gitlab.com/oddnetworks/oddworks/brightcove-provider/badges/master/pipeline.svg)](https://gitlab.com/oddnetworks/oddworks/brightcove-provider/commits/master)
 
 Installation
 ------------
@@ -14,12 +14,12 @@ For full Brightcove API documentation see [docs.brightcove.com/en/video-cloud/co
 
 Oddworks Server Integration
 ---------------------------
-The Oddworks-Brightcove provider is designed to be integrated with an Oddworks server [catalog](https://github.com/oddnetworks/oddworks/tree/master/lib/services/catalog), specifically as a [provider](https://github.com/oddnetworks/oddworks/tree/master/lib/services/catalog#providers). To initialize the plugin in your server:
+The Oddworks-Brightcove provider is designed to be integrated with an Oddworks server [catalog](https://gitlab.com/oddnetworks/oddworks/core/tree/master/lib/services/catalog), specifically as a [provider](https://gitlab.com/oddnetworks/oddworks/core/tree/master/lib/services/catalog#providers). To initialize the plugin in your server:
 
 ```JavaScript
 const brightcoveProvider = require('oddworks-brightcove-provider');
 
-// See https://github.com/oddnetworks/oddworks/tree/master/lib/services/catalog#patterns
+// See https://gitlab.com/oddnetworks/oddworks/core/tree/master/lib/services/catalog#patterns
 // for more information regarding an Oddcast Bus.
 const bus = createMyOddcastBus();
 

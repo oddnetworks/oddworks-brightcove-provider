@@ -1,6 +1,6 @@
 {
   "name": "oddworks-brightcove-provider",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "description": "An Oddworks provider plugin for Brightcove APIs",
   "main": "index.js",
   "dependencies": {
@@ -23,7 +23,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/oddnetworks/oddworks-brightcove-provider.git"
+    "url": "git+https://gitlab.com/oddnetworks/oddworks/brightcove-provider.git"
   },
   "keywords": [
     "Oddworks",
@@ -38,9 +38,9 @@
   "author": "Odd Networks Inc.",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/oddnetworks/oddworks-brightcove-provider/issues"
+    "url": "https://gitlab.com/oddnetworks/oddworks/brightcove-provider/issues"
   },
-  "homepage": "https://github.com/oddnetworks/oddworks-brightcove-provider#readme",
+  "homepage": "https://gitlab.com/oddnetworks/oddworks/brightcove-provider#readme",
   "xo": {
     "rules": {
       "object-property-newline": 0,
