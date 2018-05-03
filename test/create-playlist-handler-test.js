@@ -29,7 +29,7 @@ const getChannel = () => {
 		}
 	});
 };
-const basicAuth = new Buffer(`${clientId}:${clientSecret}`);
+const basicAuth = Buffer.from(`${clientId}:${clientSecret}`);
 const oauthAuthHeader = `Basic ${basicAuth.toString('base64')}`;
 const cmsAuthHeader = `Bearer ${accessTokenResponse.access_token}`;
 
